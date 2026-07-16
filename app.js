@@ -4296,30 +4296,30 @@ function renderMain__app_u147() {
 
   var F = {procname: "app.renderMain", prev: framePtr, filename: "C:\\Users\\noems\\OneDrive\\Bureau\\myport\\app.nim", line: 0};
   framePtr = F;
-    F.line = 73;
+    F.line = 82;
     F.filename = "app.nim";
-    F.line = 73;
+    F.line = 82;
     var tmp_553648277 = tree__pkgZkaraxZvdom_u943(44, []);
-    F.line = 73;
+    F.line = 82;
     tmp_553648277.class = "myclass";
-    F.line = 74;
+    F.line = 83;
     var tmp_553648279 = tree__pkgZkaraxZvdom_u943(21, []);
-    F.line = 75;
+    F.line = 84;
     add__pkgZkaraxZvdom_u857(tmp_553648279, text__pkgZkaraxZvdom_u1011([102,117,116,117,114,101,98,97,115,115,109,101,111,119]));
-    F.line = 75;
+    F.line = 84;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648279);
-    F.line = 76;
+    F.line = 85;
     var tmp_553648280 = tree__pkgZkaraxZvdom_u943(23, []);
-    F.line = 77;
-    add__pkgZkaraxZvdom_u857(tmp_553648280, text__pkgZkaraxZvdom_u1011([102,111,114,109,101,114,32,109,117,115,105,99,105,101,110,32,38,32,115,111,117,110,100,32,100,101,115,105,103,110,101,114,32,45,32,119,97,110,110,97,98,101,32,100,101,118,101,108,111,112,101,114,32,45,32,100,101,112,114,101,115,115,101,100]));
-    F.line = 77;
+    F.line = 86;
+    add__pkgZkaraxZvdom_u857(tmp_553648280, text__pkgZkaraxZvdom_u1011([102,111,114,109,101,114,32,109,117,115,105,99,105,101,110,32,38,32,115,111,117,110,100,32,100,101,115,105,103,110,101,114,32,45,32,119,97,110,110,97,98,101,32,100,101,118,101,108,111,112,101,114,32,45,32,115,97,100]));
+    F.line = 86;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648280);
-    F.line = 78;
+    F.line = 87;
     var tmp_553648281 = tree__pkgZkaraxZvdom_u943(18, []);
     Label1: {
-      F.line = 79;
+      F.line = 88;
       var i_553648330 = 0;
-      F.line = 79;
+      F.line = 88;
       var page_553648331 = null;
       F.line = 182;
       F.filename = "iterators.nim";
@@ -4330,21 +4330,21 @@ function renderMain__app_u147() {
         F.line = 184;
           Label3: while (true) {
           if (!(i_553648928 < L_553648929)) break Label3;
-            F.line = 79;
+            F.line = 88;
             F.filename = "app.nim";
             i_553648330 = i_553648928;
-            F.line = 79;
+            F.line = 88;
             page_553648331 = list_553648139[0][chckIndx(i_553648928, 0, (list_553648139[0]).length - 1)];
-            F.line = 80;
+            F.line = 89;
             var tmp_553648282 = tree__pkgZkaraxZvdom_u943(45, []);
-            F.line = 80;
+            F.line = 89;
             setAttr__pkgZkaraxZvdom_u772(tmp_553648282, "href", "#/");
-            F.line = 81;
+            F.line = 90;
             add__pkgZkaraxZvdom_u857(tmp_553648282, text__pkgZkaraxZvdom_u1014(page_553648331));
-            F.line = 81;
+            F.line = 90;
             add__pkgZkaraxZvdom_u857(tmp_553648281, tmp_553648282);
             if ((i_553648330 < subInt((list_553648139[0]).length, 1))) {
-            F.line = 83;
+            F.line = 92;
             add__pkgZkaraxZvdom_u857(tmp_553648281, text__pkgZkaraxZvdom_u1011([32,45,45,45,45,45,32]));
             }
             
@@ -4359,29 +4359,29 @@ function renderMain__app_u147() {
           }
       };
     };
-    F.line = 83;
+    F.line = 92;
     F.filename = "app.nim";
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648281);
-    F.line = 85;
+    F.line = 94;
     var tmp_553648283 = tree__pkgZkaraxZvdom_u943(32, []);
-    F.line = 86;
-    add__pkgZkaraxZvdom_u857(tmp_553648283, text__pkgZkaraxZvdom_u1011(makeNimstrLit("je r\xC3\xAAve de faire des trucs utiles quand je ne peux pas les faire et d\xC3\xA8s que je peux je fais des trucs inutiles #deep")));
-    F.line = 86;
+    F.line = 95;
+    add__pkgZkaraxZvdom_u857(tmp_553648283, text__pkgZkaraxZvdom_u1011(makeNimstrLit("je veux faire des trucs utiles quand je ne peux pas les faire et d\xC3\xA8s que je peux les faire je fais des trucs inutiles")));
+    F.line = 95;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648283);
-    F.line = 88;
+    F.line = 97;
     var tmp_553648284 = tree__pkgZkaraxZvdom_u943(22, []);
-    F.line = 89;
+    F.line = 98;
     add__pkgZkaraxZvdom_u857(tmp_553648284, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
-    F.line = 89;
+    F.line = 98;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648284);
-    F.line = 91;
+    F.line = 100;
     var tmp_553648285 = tree__pkgZkaraxZvdom_u943(24, []);
-    F.line = 92;
+    F.line = 101;
     add__pkgZkaraxZvdom_u857(tmp_553648285, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 vous vous demandez s\xC3\xBBrement comment j\'en suis arriv\xC3\xA9 l\xC3\xA0")));
-    F.line = 92;
+    F.line = 101;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648285);
     Label4: {
-      F.line = 93;
+      F.line = 102;
       var str_553648356 = [];
       F.line = 249;
       F.filename = "iterators.nim";
@@ -4392,14 +4392,14 @@ function renderMain__app_u147() {
         F.line = 251;
           Label6: while (true) {
           if (!(i_553648933 < L_553648934)) break Label6;
-            F.line = 93;
+            F.line = 102;
             F.filename = "app.nim";
             str_553648356 = rdthoughts_553648160[0][chckIndx(i_553648933, 0, (rdthoughts_553648160[0]).length - 1)];
-            F.line = 94;
+            F.line = 103;
             var tmp_553648286 = tree__pkgZkaraxZvdom_u943(32, []);
-            F.line = 95;
+            F.line = 104;
             add__pkgZkaraxZvdom_u857(tmp_553648286, text__pkgZkaraxZvdom_u1011(str_553648356));
-            F.line = 95;
+            F.line = 104;
             add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648286);
             F.line = 13;
             F.filename = "iterators.nim";
@@ -4412,24 +4412,24 @@ function renderMain__app_u147() {
           }
       };
     };
-    F.line = 97;
+    F.line = 106;
     F.filename = "app.nim";
     var tmp_553648287 = tree__pkgZkaraxZvdom_u943(22, []);
-    F.line = 98;
+    F.line = 107;
     add__pkgZkaraxZvdom_u857(tmp_553648287, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
-    F.line = 98;
+    F.line = 107;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648287);
-    F.line = 99;
+    F.line = 108;
     var tmp_553648288 = tree__pkgZkaraxZvdom_u943(24, []);
-    F.line = 100;
+    F.line = 109;
     add__pkgZkaraxZvdom_u857(tmp_553648288, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 pourquoi la scene underground se comportent tous comme des tocards")));
-    F.line = 100;
+    F.line = 109;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648288);
-    F.line = 101;
+    F.line = 110;
     var tmp_553648289 = tree__pkgZkaraxZvdom_u943(32, []);
-    F.line = 102;
+    F.line = 111;
     add__pkgZkaraxZvdom_u857(tmp_553648289, text__pkgZkaraxZvdom_u1011(makeNimstrLit("jvoulais faire un post sur xo et puis jai eu la flemme maisquil nique sa mere lui et sa claude fanfic . ca nous fait le philosophe pour d\xC3\xA9fendre l\'utilisation de robots dans l\'art sayez gros va faire d drums un peu")));
-    F.line = 102;
+    F.line = 111;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648289);
     result_553648276 = tmp_553648277;
   framePtr = F.prev;
@@ -4445,9 +4445,9 @@ function createDom__app_u229() {
 
   var F = {procname: "app.createDom", prev: framePtr, filename: "C:\\Users\\noems\\OneDrive\\Bureau\\myport\\app.nim", line: 0};
   framePtr = F;
-    F.line = 105;
+    F.line = 114;
     F.filename = "app.nim";
-    F.line = 105;
+    F.line = 114;
     switch (currentState_553648145[0]) {
     case 0:
       Temporary1 = renderMain__app_u147();
@@ -4464,16 +4464,16 @@ var F = {procname: "module app", prev: framePtr, filename: "C:\\Users\\noems\\On
 framePtr = F;
 F.line = 3;
 F.filename = "app.nim";
-var list_553648139 = [["les", "boutons", "ici", "fonctionnent", "pas"]];
+var list_553648139 = [["les", "boutons", "ici", "ne", "fonctionnent", "pas"]];
 F.line = 8;
 var currentState_553648145 = [0];
 F.line = 17;
 var projects_553648155 = [[{name: "DATAMOSH THERAPY", image: null}, {name: "RIPPLES", image: null}, {name: "PERC GENERATOR", image: null}, {name: "RISK OF RAIN REDESIGN", image: null}]];
 F.line = 24;
-var rdthoughts_553648160 = [[[32,32,32,32,116,101,120,116,101,32,98,105,101,110,32,116,114,111,112,32,108,111,110,103,32,109,97,105,115,32,102,97,108,108,97,105,116,32,113,117,101,32,106,101,32,121,97,112,32,117,110,32,112,101,117,32,10,32,32], makeNimstrLit("    Au coll\xC3\xA8ge, quand jai commenc\xC3\xA9 a faire de la musique, je ne me suis jamais pos\xC3\xA9 la question de **pourquoi** je le faisais. \xC3\xA0 l\'\xC3\xA9poque, mon dumb ass brain \xC3\xA9tait incapable de se fixer et grind un seul int\xC3\xA9r\xC3\xAAt, genre une passion, un sport (??), une forme d\'art, peu importe. Apres des ann\xC3\xA9es \xC3\xA0 essayer de comprendre ce que j\'aimais, ce que je voulais faire dans la vie, et comment je voulais le faire, j\'ai d\xC3\xA9couvert la musique \xC3\xA9lectronique plut\xC3\xB4t par hasard, et j\'ai commenc\xC3\xA9 \xC3\xA0 apprendre assez instinctivement. Jusque lors je n\'avais jamais \xC3\xA9t\xC3\xA9 s\xC3\xA9rieusement int\xC3\xA9ress\xC3\xA9 par le sujet. Ma culture musicale se r\xC3\xA9sumait \xC3\xA0 ncs et aux tops nrj12. Cette culture, je l\'ai donc forg\xC3\xA9e avec le temps, en apprenant, en \xC3\xA9coutant des nouvelles choses et surtout, en grandissant. la musique \xC3\xA9tait devenu le seul centre d\'int\xC3\xA9r\xC3\xAAt que j\'avais et qui avait comme don de ne pas me lasser, donc jai continu\xC3\xA9. Vers le lyc\xC3\xA9e, jai simplement r\xC3\xA9alis\xC3\xA9 que j\'\xC3\xA9tais arriv\xC3\xA9 trop loin pour m\'arr\xC3\xAAter, donc jai voulu m\'orienter l\xC3\xA0 dedans.\x0A  "), makeNimstrLit("    je passerai les d\xC3\xA9tails ici, si vous lisez \xC3\xA7a vous savez. Mon obsession apr\xC3\xA8s avoir eu mon bac a \xC3\xA9t\xC3\xA9 de continuer d\'apprendre. Le sound design, la production, le mix, etc.... jai effectivement appris ces choses l\xC3\xA0, d\xC3\xA9croch\xC3\xA9 un dipl\xC3\xB4me, puis, en 2024, DATAMOSH THERAPY est n\xC3\xA9. 2 ans de projets hybrides ableton/flstudio/pro-tools et moi qui raconte des trucs que le moi du futur aurait s\xC3\xBBrement tr\xC3\xA8s honte (c\'est le cas). Javais atteint le seul objectif que j\'avais en t\xC3\xAAte \xC3\xA0 ce moment. Cet album \xC3\xA9tait la concr\xC3\xA9tisation de tout ce que javais imagin\xC3\xA9 depuis 2020, quand j\'\xC3\xA9crivais encore des tracklists avec des songs qui n\'existent m\xC3\xAAme pas dans les notes de mon ordi. Avec 4 ans de retard, le plan s\'\xC3\xA9tait ENFIN d\xC3\xA9roul\xC3\xA9 comme pr\xC3\xA9vu. L\'ep est sorti, jai eu des bon retours, la release party dans un bar perdu au fond du qu\xC3\xA9bec \xC3\xA9tait s\xC3\xBBrement la meilleure soir\xC3\xA9e de ma vie. Maintenant quoi ? je ne sais pas. \x0A  "), makeNimstrLit("    une des choses qui m\'a pouss\xC3\xA9 \xC3\xA0 continuer cet album, entre 2022 et 2024 \xC3\xA9tait la reconnaissance. J\'allais enfin pouvoir montrer aux gens de quoi je suis capable, qu\'est-ce qui me construit, et ce que je peux faire. M\xC3\xAAme si c\'\xC3\xA9tait 2 personnes, la reconnaissance de ces 2 personnes me suffisait. Le simple fait de me dire que jallais peut etre pouvoir etre dans l\'esprit d es gens autrement qu\'en \xC3\xA9tant physiquement devant eux \xC3\xA9tait un moteur assez puissant pour me forcer \xC3\xA0 continuer. Anyway, pour une raison qui m\'est encore inconnue (les gens diront que cest parce que l\'album est bien -- ), jai fini par atteindre bien plus de personnes que je ne l\'imaginais. et \xC3\xA7a m\'a fait du bien. \x0A  "), makeNimstrLit("    Donc quand on est un artiste, la tradition veut qu\'on ne le soit pas seulement pour le temps d\'un album, mais que, \xC3\xA9videmment, on soit capable de r\xC3\xA9it\xC3\xA9rer ce processus plusieurs fois. Ce que \xC3\xA7a voulait dire pour moi, maintenant que j\'\xC3\xA9tais dans la cour des grands, c\'est: il fallait faire mieux, plus rapidement, et arr\xC3\xAAter de gamberge pour rien. C\'est alors naturellement que j\'ai d\xC3\xA9cid\xC3\xA9 de me lancer dans la production d\'un deuxi\xC3\xA8me album, imm\xC3\xA9diatement apres le premier (FATAL FIELDS, l\'intro du projet a \xC3\xA9t\xC3\xA9 produite le jour de la sortie de DMT et enregistr\xC3\xA9e le lendemain). Cest pr\xC3\xA9cis\xC3\xA9ment l\xC3\xA0 que la descente aux enfers a commenc\xC3\xA9. Jai d\xC3\xA9test\xC3\xA9 CHAQUE SECONDE de ce projet, et ce pendant tout le temps de sa conception. C\'\xC3\xA9tait objectivement mieux que son pr\xC3\xA9d\xC3\xA9cesseur, mais mon cerveau n\xC3\xA9tait pas capable de l\'aimer. Pourquoi ? je ne le saurai jamais, mais \xC3\xA7a m\'a d\xC3\xA9truit. Une des diff\xC3\xA9rences entre les deux projets, c\'est que le contexte de conception n\'\xC3\xA9tait pas le m\xC3\xAAme. J\'ai r\xC3\xA9alis\xC3\xA9 DMT pendant mes \xC3\xA9tudes, javais la t\xC3\xAAte dans le son en permanence, et quand je rentrais de cours il fallait grind pour pouvoir deliver le projet \xC3\xA0 temps. Cela a r\xC3\xA9sult\xC3\xA9 en des sessions tr\xC3\xA8s courtes, souvent entre 23h et 3-4h du matin. Le fun de la production venait \xC3\xA0 courtes doses, donc naturellement, j\'allais paradoxalement plus vite puisque j\'avais moins le temps de travailler sur le projet, mais je pouvais gamberger dessus tout le long de la journ\xC3\xA9e. Son successeur (que je nommerai RVS), quand \xC3\xA0 lui, a \xC3\xA9t\xC3\xA9 r\xC3\xA9alis\xC3\xA9 dans un autre contexte: litt\xC3\xA9ralement sans-emploi et chez le padre, donc toute la journ\xC3\xA9e devant l\'ordi \xC3\xA0 composer, enregistrer, mixer, etc etc etc. Ca aurait pu \xC3\xAAtre un r\xC3\xAAve, mais mon cerveau n\'est pas capable de se r\xC3\xA9guler dans si peu de limitations. Donc au lieu de savoir quoi faire et de le faire, je me perdais continuellement sur internet a la recherche d\'inspiration, qui n\'est jamais venu. En mai 2025, jai donc pris la d\xC3\xA9cision de m\'\xC3\xA9loigner de la musique. J\'avais besoin de voir, faire, vivre autre chose. et c\'est l\xC3\xA0 que j\'ai d\xC3\xA9couvert strudel.\x0A  "), makeNimstrLit("    Je vais pas expliquer ce que c\'est, vous pouvez simplement aller voir par vous-m\xC3\xAAme. Concr\xC3\xA8tement: on \xC3\xA9crit du code qui g\xC3\xA9n\xC3\xA8re d ela muisque. c\'\xC3\xA9tait une fa\xC3\xA7on diff\xC3\xA9rente et totalement in\xC3\xA9dite de composer compar\xC3\xA9 \xC3\xA0 ce que je savais d\xC3\xA9j\xC3\xA0, et je suis tomb\xC3\xA9 in love <3 comme disent les jeunes. apr\xC3\xA8s beaucoup d\'it\xC3\xA9rations sur la documentation, jai r\xC3\xA9ussi \xC3\xA0 atteindre un niveau similaire \xC3\xA0 celui que j\'avais sur ableton / fl studio, bien que strudel \xC3\xA9tait relativement bien plus limit\xC3\xA9. Cependant, la passion n\'\xC3\xA9tait pas revenu enti\xC3\xA8rement, et j\'ai vite abandonn\xC3\xA9. Ce que strudel a r\xC3\xA9ussi, en revanche, c\'est \xC3\xA0 m\'orienter vers d\'autres choses: la programmation. Je ne le savais pas encore, mais ce site allait me changer d\'une fa\xC3\xA7on que je n\'aurais jamais imagin\xC3\xA9.\x0A  "), makeNimstrLit("    La seule fois o\xC3\xB9 javais r\xC3\xA9ellement touch\xC3\xA9 \xC3\xA0 du code, c\'\xC3\xA9tait au lyc\xC3\xA9e. Jai fait un bac STI2D SIN, ce qui m\'a permis d\'apprendre le tr\xC3\xA8s horrible arduino. C\'\xC3\xA9tait... une mauvaise exp\xC3\xA9rience que je ne retenterai pour rien au monde, et \xC3\xA7a m\'a convaincu que la programmation \xC3\xA9tait quelque chose qu\'il ne fallait pas que je touche. Puis, en novembre 2025, apr\xC3\xA8s ce que j\'appellerai une \"semaine gamberge\", j\'ai achet\xC3\xA9 Risk of Rain 2, dans le seul objectif de chercher de la dopamine pour mon cerveau trop depressed \xC3\xA0 l\'\xC3\xA9poque. et c\'est LA que je suis tomb\xC3\xA9 dans le rabbit hole.\x0A  "), makeNimstrLit("    Jai jamais r\xC3\xA9ellement \xC3\xA9t\xC3\xA9 un gamer. les jeux vid\xC3\xA9os sont pour moi plus un moyen de passer le temps plut\xC3\xB4t qu\'une passion. C\'est un monde qui ne m\'a jamais r\xC3\xA9ellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n\'avais pas le bon angle. Jouer aux jeux vid\xC3\xA9os? boring. faire des jeux vid\xC3\xA9os? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pens\xC3\xA9 et \xC3\xA7a sonnait comme une excellente id\xC3\xA9e???? La vague risk of rain m\'avait eu: TOUT ce que j\'aimais faire \xC3\xA9tait r\xC3\xA9uni dans un seul media, accessible \xC3\xA0 l\'infini depuis mon ordinateur: worldbuilding, dessin (bien que ror2 soit en 3d, ce nest pas le cas de son pr\xC3\xA9d\xC3\xA9cesseur), musique, sound design, il me manquait juste.... la passion pour le code.\x0A  "), makeNimstrLit("    alors jai install\xC3\xA9 gamemaker. on m\'a dit que c\'\xC3\xA9tait un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j\'aime \xC3\xA9norm\xC3\xA9ment utiliser des choses qui ne sont pas les premi\xC3\xA8res options lorsqu\'on s\'int\xC3\xA9resse \xC3\xA0 un sujet.  \xC3\xA9tait trop bizare, godot etait trop overwhelming, et unreal \xC3\xA9tait trop .... trop. gamemaker \xC3\xA9tait parfait. de novembre \xC3\xA0 f\xC3\xA9vrier, jai enchain\xC3\xA9 les tutoriels, les demos de jeu, l\'apprentissage, tout. je comprenait enfin \"the joy of programming\". c\'\xC3\xA9tait juste ce que j\'aimais le + faire, \xC3\xA0 grande \xC3\xA9chelle: simplement manipuler et organiser des stacks de donn\xC3\xA9es dans un ordre qui permettait de construire un jeu.\x0A  ")]];
-F.line = 66;
+var rdthoughts_553648160 = [[[32,32,32,32,116,101,120,116,101,32,98,105,101,110,32,116,114,111,112,32,108,111,110,103,32,109,97,105,115,32,102,97,108,108,97,105,116,32,113,117,101,32,106,101,32,121,97,112,32,117,110,32,112,101,117,32,10,32,32], makeNimstrLit("    Au coll\xC3\xA8ge, quand jai commenc\xC3\xA9 a faire de la musique, je ne me suis jamais pos\xC3\xA9 la question de **pourquoi** je le faisais. \xC3\xA0 l\'\xC3\xA9poque, mon dumb ass brain \xC3\xA9tait incapable de se fixer et grind un seul int\xC3\xA9r\xC3\xAAt, genre une passion, un sport (??), une forme d\'art, peu importe. Apres des ann\xC3\xA9es \xC3\xA0 essayer de comprendre ce que j\'aimais, ce que je voulais faire dans la vie, et comment je voulais le faire, j\'ai d\xC3\xA9couvert la musique \xC3\xA9lectronique plut\xC3\xB4t par hasard, et j\'ai commenc\xC3\xA9 \xC3\xA0 apprendre assez instinctivement. Jusque lors je n\'avais jamais \xC3\xA9t\xC3\xA9 s\xC3\xA9rieusement int\xC3\xA9ress\xC3\xA9 par le sujet. Ma culture musicale se r\xC3\xA9sumait \xC3\xA0 ncs et aux tops nrj12. Cette culture, je l\'ai donc forg\xC3\xA9e avec le temps, en apprenant, en \xC3\xA9coutant des nouvelles choses et surtout, en grandissant. la musique \xC3\xA9tait devenu le seul centre d\'int\xC3\xA9r\xC3\xAAt que j\'avais et qui avait comme don de ne pas me lasser, donc jai continu\xC3\xA9. Vers le lyc\xC3\xA9e, jai simplement r\xC3\xA9alis\xC3\xA9 que j\'\xC3\xA9tais arriv\xC3\xA9 trop loin pour m\'arr\xC3\xAAter, donc jai voulu m\'orienter l\xC3\xA0 dedans.\x0A  "), makeNimstrLit("    je passerai les d\xC3\xA9tails ici, si vous lisez \xC3\xA7a vous savez. Mon obsession apr\xC3\xA8s avoir eu mon bac a \xC3\xA9t\xC3\xA9 de continuer d\'apprendre. Le sound design, la production, le mix, etc.... jai effectivement appris ces choses l\xC3\xA0, d\xC3\xA9croch\xC3\xA9 un dipl\xC3\xB4me, puis, en 2024, DATAMOSH THERAPY est n\xC3\xA9. 2 ans de projets hybrides ableton/flstudio/pro-tools et moi qui raconte des trucs que le moi du futur aurait s\xC3\xBBrement tr\xC3\xA8s honte (c\'est le cas). Javais atteint le seul objectif que j\'avais en t\xC3\xAAte \xC3\xA0 ce moment. Cet album \xC3\xA9tait la concr\xC3\xA9tisation de tout ce que javais imagin\xC3\xA9 depuis 2020, quand j\'\xC3\xA9crivais encore des tracklists avec des songs qui n\'existent m\xC3\xAAme pas dans les notes de mon ordi. Avec 4 ans de retard, le plan s\'\xC3\xA9tait ENFIN d\xC3\xA9roul\xC3\xA9 comme pr\xC3\xA9vu. L\'ep est sorti, jai eu des bon retours, la release party dans un bar perdu au fond du qu\xC3\xA9bec \xC3\xA9tait s\xC3\xBBrement la meilleure soir\xC3\xA9e de ma vie. Maintenant quoi ? je ne sais pas. \x0A  "), makeNimstrLit("    une des choses qui m\'a pouss\xC3\xA9 \xC3\xA0 continuer cet album, entre 2022 et 2024 \xC3\xA9tait la reconnaissance. J\'allais enfin pouvoir montrer aux gens de quoi je suis capable, qu\'est-ce qui me construit, et ce que je peux faire. M\xC3\xAAme si c\'\xC3\xA9tait 2 personnes, la reconnaissance de ces 2 personnes me suffisait. Le simple fait de me dire que jallais peut etre pouvoir etre dans l\'esprit d es gens autrement qu\'en \xC3\xA9tant physiquement devant eux \xC3\xA9tait un moteur assez puissant pour me forcer \xC3\xA0 continuer. Anyway, pour une raison qui m\'est encore inconnue (les gens diront que cest parce que l\'album est bien -- ), jai fini par atteindre bien plus de personnes que je ne l\'imaginais. et \xC3\xA7a m\'a fait du bien. \x0A  "), makeNimstrLit("    Donc quand on est un artiste, la tradition veut qu\'on ne le soit pas seulement pour le temps d\'un album, mais que, \xC3\xA9videmment, on soit capable de r\xC3\xA9it\xC3\xA9rer ce processus plusieurs fois. Ce que \xC3\xA7a voulait dire pour moi, maintenant que j\'\xC3\xA9tais dans la cour des grands, c\'est: il fallait faire mieux, plus rapidement, et arr\xC3\xAAter de gamberge pour rien. C\'est alors naturellement que j\'ai d\xC3\xA9cid\xC3\xA9 de me lancer dans la production d\'un deuxi\xC3\xA8me album, imm\xC3\xA9diatement apres le premier (FATAL FIELDS, l\'intro du projet a \xC3\xA9t\xC3\xA9 produite le jour de la sortie de DMT et enregistr\xC3\xA9e le lendemain). Cest pr\xC3\xA9cis\xC3\xA9ment l\xC3\xA0 que la descente aux enfers a commenc\xC3\xA9. Jai d\xC3\xA9test\xC3\xA9 CHAQUE SECONDE de ce projet, et ce pendant tout le temps de sa conception. C\'\xC3\xA9tait objectivement mieux que son pr\xC3\xA9d\xC3\xA9cesseur, mais mon cerveau n\xC3\xA9tait pas capable de l\'aimer. Pourquoi ? je ne le saurai jamais, mais \xC3\xA7a m\'a d\xC3\xA9truit. Une des diff\xC3\xA9rences entre les deux projets, c\'est que le contexte de conception n\'\xC3\xA9tait pas le m\xC3\xAAme. J\'ai r\xC3\xA9alis\xC3\xA9 DMT pendant mes \xC3\xA9tudes, javais la t\xC3\xAAte dans le son en permanence, et quand je rentrais de cours il fallait grind pour pouvoir deliver le projet \xC3\xA0 temps. Cela a r\xC3\xA9sult\xC3\xA9 en des sessions tr\xC3\xA8s courtes, souvent entre 23h et 3-4h du matin. Le fun de la production venait \xC3\xA0 courtes doses, donc naturellement, j\'allais paradoxalement plus vite puisque j\'avais moins le temps de travailler sur le projet, mais je pouvais gamberger dessus tout le long de la journ\xC3\xA9e. Son successeur (que je nommerai RVS), quand \xC3\xA0 lui, a \xC3\xA9t\xC3\xA9 r\xC3\xA9alis\xC3\xA9 dans un autre contexte: litt\xC3\xA9ralement sans-emploi et chez le padre, donc toute la journ\xC3\xA9e devant l\'ordi \xC3\xA0 composer, enregistrer, mixer, etc etc etc. Ca aurait pu \xC3\xAAtre un r\xC3\xAAve, mais mon cerveau n\'est pas capable de se r\xC3\xA9guler dans si peu de limitations. Donc au lieu de savoir quoi faire et de le faire, je me perdais continuellement sur internet a la recherche d\'inspiration, qui n\'est jamais venu. En mai 2025, jai donc pris la d\xC3\xA9cision de m\'\xC3\xA9loigner de la musique. J\'avais besoin de voir, faire, vivre autre chose. et c\'est l\xC3\xA0 que j\'ai d\xC3\xA9couvert strudel.\x0A  "), makeNimstrLit("    Je vais pas expliquer ce que c\'est, vous pouvez simplement aller voir par vous-m\xC3\xAAme. Concr\xC3\xA8tement: on \xC3\xA9crit du code qui g\xC3\xA9n\xC3\xA8re d ela muisque. c\'\xC3\xA9tait une fa\xC3\xA7on diff\xC3\xA9rente et totalement in\xC3\xA9dite de composer compar\xC3\xA9 \xC3\xA0 ce que je savais d\xC3\xA9j\xC3\xA0, et je suis tomb\xC3\xA9 in love <3 comme disent les jeunes. apr\xC3\xA8s beaucoup d\'it\xC3\xA9rations sur la documentation, jai r\xC3\xA9ussi \xC3\xA0 atteindre un niveau similaire \xC3\xA0 celui que j\'avais sur ableton / fl studio, bien que strudel \xC3\xA9tait relativement bien plus limit\xC3\xA9. Cependant, la passion n\'\xC3\xA9tait pas revenu enti\xC3\xA8rement, et j\'ai vite abandonn\xC3\xA9. Ce que strudel a r\xC3\xA9ussi, en revanche, c\'est \xC3\xA0 m\'orienter vers d\'autres choses: la programmation. Je ne le savais pas encore, mais ce site allait me changer d\'une fa\xC3\xA7on que je n\'aurais jamais imagin\xC3\xA9.\x0A  "), makeNimstrLit("    La seule fois o\xC3\xB9 javais r\xC3\xA9ellement touch\xC3\xA9 \xC3\xA0 du code, c\'\xC3\xA9tait au lyc\xC3\xA9e. Jai fait un bac STI2D SIN, ce qui m\'a permis d\'apprendre le tr\xC3\xA8s horrible arduino. C\'\xC3\xA9tait... une mauvaise exp\xC3\xA9rience que je ne retenterai pour rien au monde, et \xC3\xA7a m\'a convaincu que la programmation \xC3\xA9tait quelque chose qu\'il ne fallait pas que je touche. Puis, en novembre 2025, apr\xC3\xA8s ce que j\'appellerai une \"semaine gamberge\", j\'ai achet\xC3\xA9 Risk of Rain 2, dans le seul objectif de chercher de la dopamine pour mon cerveau trop depressed \xC3\xA0 l\'\xC3\xA9poque. et c\'est LA que je suis tomb\xC3\xA9 dans le rabbit hole.\x0A  "), makeNimstrLit("    Je nai jamais r\xC3\xA9ellement \xC3\xA9t\xC3\xA9 un gamer. les jeux vid\xC3\xA9os sont pour moi plus un moyen de passer le temps plut\xC3\xB4t qu\'une passion. C\'est un monde qui ne m\'a jamais r\xC3\xA9ellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n\'avais pas le bon angle. Jouer aux jeux vid\xC3\xA9os? boring. faire des jeux vid\xC3\xA9os? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pens\xC3\xA9 et \xC3\xA7a sonnait comme une excellente id\xC3\xA9e???? La vague risk of rain m\'avait eu: TOUT ce que j\'aimais faire \xC3\xA9tait r\xC3\xA9uni dans un seul media, accessible \xC3\xA0 l\'infini depuis mon ordinateur: worldbuilding, dessin (bien que ror2 soit en 3d, ce nest pas le cas de son pr\xC3\xA9d\xC3\xA9cesseur), musique, sound design, il me manquait juste.... la passion pour le code.\x0A  "), makeNimstrLit("    alors jai install\xC3\xA9 gamemaker. on m\'a dit que c\'\xC3\xA9tait un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j\'aime \xC3\xA9norm\xC3\xA9ment utiliser des choses qui ne sont pas les premi\xC3\xA8res options lorsqu\'on s\'int\xC3\xA9resse \xC3\xA0 un sujet. unity \xC3\xA9tait trop overwhelming, godot etait trop bizarre, et unreal \xC3\xA9tait trop .... trop. gamemaker \xC3\xA9tait parfait. de novembre \xC3\xA0 f\xC3\xA9vrier, jai enchain\xC3\xA9 les tutoriels, les demos de jeu, l\'apprentissage, tout. je comprenait enfin \"the joy of programming\". c\'\xC3\xA9tait juste ce que j\'aimais le + faire, \xC3\xA0 grande \xC3\xA9chelle: simplement manipuler et organiser des groupes de donn\xC3\xA9es dans un ordre qui permettait de construire ce qu\'on voulait. Absolument rien \xC3\xA0 voir avec arduino. c\'\xC3\xA9tait des probl\xC3\xA8mes de logiques \xC3\xA0 r\xC3\xA9soudre en permanence, \xC3\xA7a m\'a r\xC3\xA9ellement anim\xC3\xA9. Mais j\'en voulais plus.\x0A  "), makeNimstrLit("    mars 2026, j\'installe Love2D. Un genre de cousin de gamemaker, dont la diff\xC3\xA9rence principale est d\'\xC3\xAAtre bien plus minimaliste que ce dernier. La seule chose que Love nous donne, c\'est un .exe qui ne fait.... rien. Pour cause? c\'est \xC3\xA0 l\'utilisateur de tout programmer. contrairement aux principaux game engines, qui fournissent une interface visuelle ainsi que des syst\xC3\xA8mes pour rendre la conception de jeu plus simple, love2D et la plupart de ses cousins frameworks (j\'y reviens plus tard) nous donne seulement des \"librairies\", des ensembles de fonctions permettant de dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. ET j\'ai gal\xC3\xA9r\xC3\xA9. c\'\xC3\xA9tait plaisant, mais jai gal\xC3\xA9r\xC3\xA9. L\'avantage de ce genre comparativement aux gros engine est qu\'ils nous offrent bien plus de libert\xC3\xA9, et nous permette de faire les choses telles que nous le voulons et non telles que l\'engine nous impose. Apr\xC3\xA8s avoir pris en main la logique du \"no engine\", j\'\xC3\xA9tais bien plus \xC3\xA0 l\'aise avec la programmation. En revanche, je ressentait le besoin de descendre encore plus bas pour trouver le vrai bonheur. Ce bonheur s\'est av\xC3\xA9r\xC3\xA9 vivre chez une personne du nom de Raysan5.\x0A  "), makeNimstrLit("    raylib fonctionne d\'une mani\xC3\xA8re similaire \xC3\xA0 love2D: c\'est un ensemble de fonctions regroup\xC3\xA9es dans un fichier texte qui permet d\'ouvrir une fen\xC3\xAAtre, g\xC3\xA9rer les inputs clavier et souris ainsi que dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. La particularit\xC3\xA9 de raylilb, cependant, est sa disponibilit\xC3\xA9: raylib est distribu\xC3\xA9 dans la quasi totalit\xC3\xA9 des langages de programmation \"mainstreams\" ainsi que quelques uns plus niches. Donc je pouvais faire ce que je voulais, avec les outils que je voulais, et comment je le voulais. c\'\xC3\xA9tait PARFAIT.\x0A  "), makeNimstrLit("    Jai pas fini d\'\xC3\xA9crire jaime pas raconter ma vie je voulais juste tester cque jpouvais faire avec le site en tt cas cest trop cool restez branch\xC3\xA9.e.s\x0A  ")]];
+F.line = 75;
 var pcMain_553648273 = [{txBody: "Ce site me sert de blog privé et de portfolio pour regrouper plus ou moins tous les projets sur lesquels je travaille, professionellement et dans mon temps libre."}];
-F.line = 71;
+F.line = 80;
 var pres_553648274 = [makeNimstrLit("jemappellenoejai23ansetlesgensdisentquejesuiscreatifvoicimonsiteinternet")];
 Temporary1 = createDom__app_u229.bind(null); Temporary1.ClP_0 = createDom__app_u229; Temporary1.ClE_0 = null;
 setRenderer__pkgZkaraxZkarax_u1870(Temporary1, "ROOT", null);

@@ -1,6 +1,6 @@
 include karax/prelude
 
-var list = @[kstring "les", "boutons", "ici", "fonctionnent", "pas"]
+var list = @[kstring "les", "boutons", "ici", "ne", "fonctionnent", "pas"]
 
 type STATE = enum
   MAIN
@@ -44,10 +44,19 @@ var rdthoughts: seq[string] = @[
     La seule fois où javais réellement touché à du code, c'était au lycée. Jai fait un bac STI2D SIN, ce qui m'a permis d'apprendre le très horrible arduino. C'était... une mauvaise expérience que je ne retenterai pour rien au monde, et ça m'a convaincu que la programmation était quelque chose qu'il ne fallait pas que je touche. Puis, en novembre 2025, après ce que j'appellerai une "semaine gamberge", j'ai acheté Risk of Rain 2, dans le seul objectif de chercher de la dopamine pour mon cerveau trop depressed à l'époque. et c'est LA que je suis tombé dans le rabbit hole.
   """,
   """
-    Jai jamais réellement été un gamer. les jeux vidéos sont pour moi plus un moyen de passer le temps plutôt qu'une passion. C'est un monde qui ne m'a jamais réellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n'avais pas le bon angle. Jouer aux jeux vidéos? boring. faire des jeux vidéos? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pensé et ça sonnait comme une excellente idée???? La vague risk of rain m'avait eu: TOUT ce que j'aimais faire était réuni dans un seul media, accessible à l'infini depuis mon ordinateur: worldbuilding, dessin (bien que ror2 soit en 3d, ce nest pas le cas de son prédécesseur), musique, sound design, il me manquait juste.... la passion pour le code.
+    Je nai jamais réellement été un gamer. les jeux vidéos sont pour moi plus un moyen de passer le temps plutôt qu'une passion. C'est un monde qui ne m'a jamais réellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n'avais pas le bon angle. Jouer aux jeux vidéos? boring. faire des jeux vidéos? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pensé et ça sonnait comme une excellente idée???? La vague risk of rain m'avait eu: TOUT ce que j'aimais faire était réuni dans un seul media, accessible à l'infini depuis mon ordinateur: worldbuilding, dessin (bien que ror2 soit en 3d, ce nest pas le cas de son prédécesseur), musique, sound design, il me manquait juste.... la passion pour le code.
   """,
   """
-    alors jai installé gamemaker. on m'a dit que c'était un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j'aime énormément utiliser des choses qui ne sont pas les premières options lorsqu'on s'intéresse à un sujet.  était trop bizare, godot etait trop overwhelming, et unreal était trop .... trop. gamemaker était parfait. de novembre à février, jai enchainé les tutoriels, les demos de jeu, l'apprentissage, tout. je comprenait enfin "the joy of programming". c'était juste ce que j'aimais le + faire, à grande échelle: simplement manipuler et organiser des stacks de données dans un ordre qui permettait de construire un jeu.
+    alors jai installé gamemaker. on m'a dit que c'était un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j'aime énormément utiliser des choses qui ne sont pas les premières options lorsqu'on s'intéresse à un sujet. unity était trop overwhelming, godot etait trop bizarre, et unreal était trop .... trop. gamemaker était parfait. de novembre à février, jai enchainé les tutoriels, les demos de jeu, l'apprentissage, tout. je comprenait enfin "the joy of programming". c'était juste ce que j'aimais le + faire, à grande échelle: simplement manipuler et organiser des groupes de données dans un ordre qui permettait de construire ce qu'on voulait. Absolument rien à voir avec arduino. c'était des problèmes de logiques à résoudre en permanence, ça m'a réellement animé. Mais j'en voulais plus.
+  """,
+  """
+    mars 2026, j'installe Love2D. Un genre de cousin de gamemaker, dont la différence principale est d'être bien plus minimaliste que ce dernier. La seule chose que Love nous donne, c'est un .exe qui ne fait.... rien. Pour cause? c'est à l'utilisateur de tout programmer. contrairement aux principaux game engines, qui fournissent une interface visuelle ainsi que des systèmes pour rendre la conception de jeu plus simple, love2D et la plupart de ses cousins frameworks (j'y reviens plus tard) nous donne seulement des "librairies", des ensembles de fonctions permettant de dessiner des choses à l'écran. ET j'ai galéré. c'était plaisant, mais jai galéré. L'avantage de ce genre comparativement aux gros engine est qu'ils nous offrent bien plus de liberté, et nous permette de faire les choses telles que nous le voulons et non telles que l'engine nous impose. Après avoir pris en main la logique du "no engine", j'étais bien plus à l'aise avec la programmation. En revanche, je ressentait le besoin de descendre encore plus bas pour trouver le vrai bonheur. Ce bonheur s'est avéré vivre chez une personne du nom de Raysan5.
+  """,
+  """
+    raylib fonctionne d'une manière similaire à love2D: c'est un ensemble de fonctions regroupées dans un fichier texte qui permet d'ouvrir une fenêtre, gérer les inputs clavier et souris ainsi que dessiner des choses à l'écran. La particularité de raylilb, cependant, est sa disponibilité: raylib est distribué dans la quasi totalité des langages de programmation "mainstreams" ainsi que quelques uns plus niches. Donc je pouvais faire ce que je voulais, avec les outils que je voulais, et comment je le voulais. c'était PARFAIT.
+  """,
+  """
+    Jai pas fini d'écrire jaime pas raconter ma vie je voulais juste tester cque jpouvais faire avec le site en tt cas cest trop cool restez branché.e.s
   """,
 ]
 proc renderProjects(): VNode =
@@ -74,7 +83,7 @@ proc renderMain(): VNode =
     h1:
       text "futurebassmeow"
     h3:
-      text "former musicien & sound designer - wannabe developer - depressed"
+      text "former musicien & sound designer - wannabe developer - sad"
     nav:
       for i, page in list.pairs:
         a(href = "#/"):
@@ -83,7 +92,7 @@ proc renderMain(): VNode =
           text " ----- "
 
     p:
-      text "je rêve de faire des trucs utiles quand je ne peux pas les faire et dès que je peux je fais des trucs inutiles #deep"
+      text "je veux faire des trucs utiles quand je ne peux pas les faire et dès que je peux les faire je fais des trucs inutiles"
 
     h2:
       text "-----------------------------------------------"
