@@ -3,17 +3,17 @@ var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
 var NTI754975003 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI553648594 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553648468 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553648466 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553648461 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI553648602 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648476 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648474 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648469 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI838860945 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860832 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553648464 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648472 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860983 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860862 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553648462 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553648460 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648470 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648468 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI134217745 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1040187474 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI1040187481 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
@@ -122,7 +122,7 @@ var NTI754974811 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI721420304 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
 var NTI721420303 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI721420301 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553648423 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648431 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555184 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33554435 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI33555872 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
@@ -134,13 +134,13 @@ var NTI33555183 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555179 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI721421124 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
 var NTI721421123 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
-var NTI553648396 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NNI553648396 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "renderer0", len: 0, typ: NTI721421123, name: "renderer0", sons: null}, 
+var NTI553648404 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NNI553648404 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "renderer0", len: 0, typ: NTI721421123, name: "renderer0", sons: null}, 
 {kind: 1, offset: "clientPostRenderCallback1", len: 0, typ: NTI721421124, name: "clientPostRenderCallback1", sons: null}]};
-NTI553648396.node = NNI553648396;
+NTI553648404.node = NNI553648404;
 var NNI33555179 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555179.node = NNI33555179;
-NTI553648396.base = NTI33555179;
+NTI553648404.base = NTI33555179;
 NTI33555186.base = NTI33555183;
 NTI33555187.base = NTI33555183;
 var NNI33555183 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "parent", len: 0, typ: NTI33555186, name: "parent", sons: null}, 
@@ -1083,9 +1083,9 @@ var NNI721420303 = {kind: 2, len: 17, offset: 0, typ: null, name: null, sons: [{
 {kind: 1, offset: "orphans", len: 0, typ: NTI721420325, name: "orphans", sons: null}]};
 NTI721420303.node = NNI721420303;
 NTI721420301.base = NTI721420303;
-var NNI553648423 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
-NTI553648423.node = NNI553648423;
-NTI553648423.base = NTI33555179;
+var NNI553648431 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
+NTI553648431.node = NNI553648431;
+NTI553648431.base = NTI33555179;
 var NNI134217749 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI134217749.node = NNI134217749;
 NTI134217749.base = NTI33555184;
@@ -1104,19 +1104,19 @@ NTI1040187481.node = NNI1040187481;
 var NNI134217745 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI134217745.node = NNI134217745;
 NTI134217745.base = NTI33555184;
-var NNI553648460 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
+var NNI553648468 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
 {kind: 1, offset: "n1", len: 0, typ: NTI754974811, name: "n1", sons: null}]};
-NTI553648460.node = NNI553648460;
-NTI553648460.base = NTI33555179;
+NTI553648468.node = NNI553648468;
+NTI553648468.base = NTI33555179;
 var NNI838860983 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI838860983.node = NNI838860983;
 NTI838860983.base = NTI33555179;
 NTI838860862.base = NTI838860983;
-var NNI553648462 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "timer0", len: 0, typ: NTI838860862, name: "timer0", sons: null}, 
+var NNI553648470 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "timer0", len: 0, typ: NTI838860862, name: "timer0", sons: null}, 
 {kind: 1, offset: "n1", len: 0, typ: NTI754974811, name: "n1", sons: null}, 
 {kind: 1, offset: "action2", len: 0, typ: NTI754974823, name: "action2", sons: null}]};
-NTI553648462.node = NNI553648462;
-NTI553648462.base = NTI33555179;
+NTI553648470.node = NNI553648470;
+NTI553648470.base = NTI33555179;
 var NNI838860945 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "bubbles", len: 0, typ: NTI33554466, name: "bubbles", sons: null}, 
 {kind: 1, offset: "cancelBubble", len: 0, typ: NTI33554466, name: "cancelBubble", sons: null}, 
 {kind: 1, offset: "cancelable", len: 0, typ: NTI33554466, name: "cancelable", sons: null}, 
@@ -1130,22 +1130,22 @@ var NNI838860945 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{
 NTI838860945.node = NNI838860945;
 NTI838860945.base = NTI33555179;
 NTI838860832.base = NTI838860945;
-NTI553648461.base = NTI553648462;
-var NNI553648464 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ev0", len: 0, typ: NTI838860832, name: "ev0", sons: null}, 
-{kind: 1, offset: "HEX3Aup", len: 0, typ: NTI553648461, name: ":up", sons: null}]};
-NTI553648464.node = NNI553648464;
-NTI553648464.base = NTI33555179;
-var NNI553648466 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
+NTI553648469.base = NTI553648470;
+var NNI553648472 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ev0", len: 0, typ: NTI838860832, name: "ev0", sons: null}, 
+{kind: 1, offset: "HEX3Aup", len: 0, typ: NTI553648469, name: ":up", sons: null}]};
+NTI553648472.node = NNI553648472;
+NTI553648472.base = NTI33555179;
+var NNI553648474 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
 {kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
-NTI553648466.node = NNI553648466;
-NTI553648466.base = NTI33555179;
-var NNI553648468 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
+NTI553648474.node = NNI553648474;
+NTI553648474.base = NTI33555179;
+var NNI553648476 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
 {kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
-NTI553648468.node = NNI553648468;
-NTI553648468.base = NTI33555179;
-var NNI553648594 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
-NTI553648594.node = NNI553648594;
-NTI553648594.base = NTI33555179;
+NTI553648476.node = NNI553648476;
+NTI553648476.base = NTI33555179;
+var NNI553648602 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
+NTI553648602.node = NNI553648602;
+NTI553648602.base = NTI33555179;
 NTI754975003.base = NTI33554450;
 
 function makeNimstrLit(c_p0) {
@@ -1776,13 +1776,13 @@ function addChars__stdZprivateZdigitsutils_u202(result_p0, result_p0_Idx, x_p1, 
          else {result_p0[result_p0_Idx].length = Temporary1; };
     Label2: {
       var iHEX60gensym4_335544542 = 0;
-      var i_553648535 = 0;
+      var i_553648537 = 0;
       Label3: {
           Label4: while (true) {
-          if (!(i_553648535 < n_p3)) break Label4;
-            iHEX60gensym4_335544542 = i_553648535;
+          if (!(i_553648537 < n_p3)) break Label4;
+            iHEX60gensym4_335544542 = i_553648537;
             result_p0[result_p0_Idx][(old_335544528 + iHEX60gensym4_335544542)] = x_p1.charCodeAt((start_p2 + iHEX60gensym4_335544542));
-            i_553648535 += 1;
+            i_553648537 += 1;
           }
       };
     };
@@ -1858,13 +1858,13 @@ function auxWriteStackTrace__system_u2112(f_p0) {
     
     Label5: {
       var j_33556590 = 0;
-      var colontmp__553648527 = 0;
-      colontmp__553648527 = (i_33556555 - 1);
-      var res_553648529 = colontmp__553648527;
+      var colontmp__553648529 = 0;
+      colontmp__553648529 = (i_33556555 - 1);
+      var res_553648531 = colontmp__553648529;
       Label6: {
           Label7: while (true) {
-          if (!(0 <= res_553648529)) break Label7;
-            j_33556590 = res_553648529;
+          if (!(0 <= res_553648531)) break Label7;
+            j_33556590 = res_553648531;
             nimAddStrStr(result_33556546[0], cstrToNimstr(tempFrames_33556557[j_33556590].Field2));;
             if ((0 < tempFrames_33556557[j_33556590].Field1)) {
             nimAddStrStr(result_33556546[0], [40]);;
@@ -1880,7 +1880,7 @@ function auxWriteStackTrace__system_u2112(f_p0) {
             nimAddStrStr(result_33556546[0], [32,97,116,32]);;
             add__system_u1972(result_33556546, 0, tempFrames_33556557[j_33556590].Field0);
             nimAddStrStr(result_33556546[0], [10]);;
-            res_553648529 -= 1;
+            res_553648531 -= 1;
           }
       };
     };
@@ -2067,19 +2067,19 @@ function HEX5BHEX5D__pkgZkaraxZkarax_u1470(s_p0, x_p1) {
       var i_721421781 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648577 = 0;
+      var i_553648579 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648577 < L_721421772)) break Label3;
+          if (!(i_553648579 < L_721421772)) break Label3;
             F.line = 148;
             F.filename = "indices.nim";
-            i_721421781 = i_553648577;
+            i_721421781 = i_553648579;
             F.line = 148;
             result_721421764[chckIndx(i_721421781, 0, (result_721421764).length - 1)] = s_p0[chckIndx(addInt(i_721421781, a_721421766), 0, (s_p0).length - 1)];
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648577 = addInt(i_553648577, 1);
+            i_553648579 = addInt(i_553648579, 1);
           }
       };
     };
@@ -2193,20 +2193,20 @@ function HEX3Aanonymous__pkgZkaraxZkarax_u280(ev_p0) {
   framePtr = F;
     F.line = 127;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648627 = null;
+    var HEX3Aenv_553648629 = null;
     F.line = 127;
-    HEX3Aenv_553648627 = {m_type: NTI553648464, ev0: null, HEX3Aup: null};
+    HEX3Aenv_553648629 = {m_type: NTI553648472, ev0: null, HEX3Aup: null};
     F.line = 124;
-    HEX3Aenv_553648627.ev0 = ev_p0;
+    HEX3Aenv_553648629.ev0 = ev_p0;
     F.line = 124;
-    HEX3Aenv_553648627.HEX3Aup = this;
+    HEX3Aenv_553648629.HEX3Aup = this;
     if (!((this.timer0 == null))) {
     F.line = 126;
     clearTimeout(this.timer0);
     }
     
     F.line = 127;
-    Temporary1 = wrapper__pkgZkaraxZkarax_u282.bind(HEX3Aenv_553648627); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u282; Temporary1.ClE_0 = HEX3Aenv_553648627;
+    Temporary1 = wrapper__pkgZkaraxZkarax_u282.bind(HEX3Aenv_553648629); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u282; Temporary1.ClE_0 = HEX3Aenv_553648629;
     this.timer0 = setTimeout(Temporary1, 400);
   framePtr = F.prev;
 
@@ -2222,16 +2222,16 @@ function laterWrapper__pkgZkaraxZkarax_u275() {
   framePtr = F;
     F.line = 121;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648626 = null;
+    var HEX3Aenv_553648628 = null;
     F.line = 121;
-    HEX3Aenv_553648626 = {m_type: NTI553648462, timer0: null, n1: null, action2: null};
+    HEX3Aenv_553648628 = {m_type: NTI553648470, timer0: null, n1: null, action2: null};
     F.line = 121;
-    HEX3Aenv_553648626.action2 = this.action0;
+    HEX3Aenv_553648628.action2 = this.action0;
     F.line = 122;
-    HEX3Aenv_553648626.n1 = this.n1;
-    HEX3Aenv_553648626.timer0 = null;
+    HEX3Aenv_553648628.n1 = this.n1;
+    HEX3Aenv_553648628.timer0 = null;
     F.line = 124;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u280.bind(HEX3Aenv_553648626); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u280; Temporary1.ClE_0 = HEX3Aenv_553648626;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u280.bind(HEX3Aenv_553648628); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u280; Temporary1.ClE_0 = HEX3Aenv_553648628;
     result_721420564 = Temporary1;
   framePtr = F.prev;
 
@@ -2294,15 +2294,15 @@ function enterWrapper__pkgZkaraxZkarax_u242() {
   framePtr = F;
     F.line = 115;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648726 = null;
+    var HEX3Aenv_553648728 = null;
     F.line = 115;
-    HEX3Aenv_553648726 = {m_type: NTI553648466, n0: null, action1: null};
+    HEX3Aenv_553648728 = {m_type: NTI553648474, n0: null, action1: null};
     F.line = 115;
-    HEX3Aenv_553648726.action1 = this.action0;
+    HEX3Aenv_553648728.action1 = this.action0;
     F.line = 116;
-    HEX3Aenv_553648726.n0 = this.n1;
+    HEX3Aenv_553648728.n0 = this.n1;
     F.line = 117;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u246.bind(HEX3Aenv_553648726); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u246; Temporary1.ClE_0 = HEX3Aenv_553648726;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u246.bind(HEX3Aenv_553648728); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u246; Temporary1.ClE_0 = HEX3Aenv_553648728;
     result_721420531 = Temporary1;
   framePtr = F.prev;
 
@@ -2351,15 +2351,15 @@ function stdWrapper__pkgZkaraxZkarax_u197() {
   framePtr = F;
     F.line = 107;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648759 = null;
+    var HEX3Aenv_553648761 = null;
     F.line = 107;
-    HEX3Aenv_553648759 = {m_type: NTI553648468, n0: null, action1: null};
+    HEX3Aenv_553648761 = {m_type: NTI553648476, n0: null, action1: null};
     F.line = 107;
-    HEX3Aenv_553648759.action1 = this.action0;
+    HEX3Aenv_553648761.action1 = this.action0;
     F.line = 108;
-    HEX3Aenv_553648759.n0 = this.n1;
+    HEX3Aenv_553648761.n0 = this.n1;
     F.line = 109;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u201.bind(HEX3Aenv_553648759); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u201; Temporary1.ClE_0 = HEX3Aenv_553648759;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u201.bind(HEX3Aenv_553648761); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u201; Temporary1.ClE_0 = HEX3Aenv_553648761;
     result_721420486 = Temporary1;
   framePtr = F.prev;
 
@@ -2378,32 +2378,32 @@ function wrapEvent__pkgZkaraxZkarax_u191(d_p0, n_p1, k_p2, action_p3) {
   framePtr = F;
     F.line = 131;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648710 = null;
+    var HEX3Aenv_553648712 = null;
     F.line = 131;
-    HEX3Aenv_553648710 = {m_type: NTI553648460, action0: null, n1: null};
+    HEX3Aenv_553648712 = {m_type: NTI553648468, action0: null, n1: null};
     F.line = 104;
-    HEX3Aenv_553648710.n1 = n_p1;
+    HEX3Aenv_553648712.n1 = n_p1;
     F.line = 105;
-    HEX3Aenv_553648710.action0 = action_p3;
+    HEX3Aenv_553648712.action0 = action_p3;
     F.line = 129;
     switch (k_p2) {
     case 30:
       F.line = 131;
-      Temporary1 = laterWrapper__pkgZkaraxZkarax_u275.bind(HEX3Aenv_553648710); Temporary1.ClP_0 = laterWrapper__pkgZkaraxZkarax_u275; Temporary1.ClE_0 = HEX3Aenv_553648710;
+      Temporary1 = laterWrapper__pkgZkaraxZkarax_u275.bind(HEX3Aenv_553648712); Temporary1.ClP_0 = laterWrapper__pkgZkaraxZkarax_u275; Temporary1.ClE_0 = HEX3Aenv_553648712;
       result_721420484 = Temporary1();
       F.line = 132;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, "keyup", result_721420484);
       break;
     case 29:
       F.line = 134;
-      Temporary2 = enterWrapper__pkgZkaraxZkarax_u242.bind(HEX3Aenv_553648710); Temporary2.ClP_0 = enterWrapper__pkgZkaraxZkarax_u242; Temporary2.ClE_0 = HEX3Aenv_553648710;
+      Temporary2 = enterWrapper__pkgZkaraxZkarax_u242.bind(HEX3Aenv_553648712); Temporary2.ClP_0 = enterWrapper__pkgZkaraxZkarax_u242; Temporary2.ClE_0 = HEX3Aenv_553648712;
       result_721420484 = Temporary2();
       F.line = 135;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, "keyup", result_721420484);
       break;
     default: 
       F.line = 137;
-      Temporary3 = stdWrapper__pkgZkaraxZkarax_u197.bind(HEX3Aenv_553648710); Temporary3.ClP_0 = stdWrapper__pkgZkaraxZkarax_u197; Temporary3.ClE_0 = HEX3Aenv_553648710;
+      Temporary3 = stdWrapper__pkgZkaraxZkarax_u197.bind(HEX3Aenv_553648712); Temporary3.ClP_0 = stdWrapper__pkgZkaraxZkarax_u197; Temporary3.ClE_0 = HEX3Aenv_553648712;
       result_721420484 = Temporary3();
       F.line = 138;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, toEventName_754975145[chckIndx(k_p2, 0, (toEventName_754975145).length - 1)], result_721420484);
@@ -2426,25 +2426,25 @@ function applyEvents__pkgZkaraxZkarax_u318(n_p0) {
       var i_721420616 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648600 = 0;
+      var colontmp__553648602 = 0;
       F.line = 151;
       F.filename = "karax.nim";
-      colontmp__553648600 = (n_p0.events).length;
+      colontmp__553648602 = (n_p0.events).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648601 = 0;
+      var i_553648603 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648601 < colontmp__553648600)) break Label3;
+          if (!(i_553648603 < colontmp__553648602)) break Label3;
             F.line = 151;
             F.filename = "karax.nim";
-            i_721420616 = i_553648601;
+            i_721420616 = i_553648603;
             F.line = 152;
             n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field2"] = wrapEvent__pkgZkaraxZkarax_u191(dest_721420608, n_p0, n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field0"], n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field1"]);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648601 = addInt(i_553648601, 1);
+            i_553648603 = addInt(i_553648603, 1);
           }
       };
     };
@@ -2464,25 +2464,25 @@ function applyStyle__pkgZkaraxZvstyles_u541(n_p0, s_p1) {
       var i_822084140 = 0;
       F.line = 46;
       F.filename = "iterators_1.nim";
-      var colontmp__553648825 = 0;
+      var colontmp__553648827 = 0;
       F.line = 339;
       F.filename = "vstyles.nim";
-      colontmp__553648825 = subInt(s_p1.length, 1);
+      colontmp__553648827 = subInt(s_p1.length, 1);
       F.line = 68;
       F.filename = "iterators_1.nim";
-      var res_553648826 = 0;
+      var res_553648828 = 0;
       Label2: {
         F.line = 69;
           Label3: while (true) {
-          if (!(res_553648826 <= colontmp__553648825)) break Label3;
+          if (!(res_553648828 <= colontmp__553648827)) break Label3;
             F.line = 339;
             F.filename = "vstyles.nim";
-            i_822084140 = res_553648826;
+            i_822084140 = res_553648828;
             F.line = 340;
             n_p0.style[s_p1[i_822084140]] = s_p1[addInt(i_822084140, 1)];
             F.line = 74;
             F.filename = "iterators_1.nim";
-            res_553648826 = addInt(res_553648826, 2);
+            res_553648828 = addInt(res_553648828, 2);
           }
       };
     };
@@ -2639,31 +2639,31 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
         Label3: {
           F.line = 372;
           F.filename = "vdom.nim";
-          var i_553648585 = 0;
+          var i_553648587 = 0;
           F.line = 126;
           F.filename = "iterators_1.nim";
-          var colontmp__553648586 = 0;
+          var colontmp__553648588 = 0;
           F.line = 372;
           F.filename = "vdom.nim";
-          colontmp__553648586 = (n_p0.kids).length;
+          colontmp__553648588 = (n_p0.kids).length;
           F.line = 128;
           F.filename = "iterators_1.nim";
-          var i_553648587 = 0;
+          var i_553648589 = 0;
           Label4: {
             F.line = 129;
               Label5: while (true) {
-              if (!(i_553648587 < colontmp__553648586)) break Label5;
+              if (!(i_553648589 < colontmp__553648588)) break Label5;
                 F.line = 372;
                 F.filename = "vdom.nim";
-                i_553648585 = i_553648587;
+                i_553648587 = i_553648589;
                 F.line = 209;
                 F.filename = "karax.nim";
-                k_721420756 = n_p0.kids[chckIndx(i_553648585, 0, (n_p0.kids).length - 1)];
+                k_721420756 = n_p0.kids[chckIndx(i_553648587, 0, (n_p0.kids).length - 1)];
                 F.line = 210;
                 result_721420639.appendChild(toDom__pkgZkaraxZkarax_u347(k_721420756, useAttachedNode_p1, kxi_p2));
                 F.line = 131;
                 F.filename = "iterators_1.nim";
-                i_553648587 = addInt(i_553648587, 1);
+                i_553648589 = addInt(i_553648589, 1);
               }
           };
         };
@@ -2701,28 +2701,28 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
       Label7: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553648595 = 0;
+        var i_553648597 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553648596 = 0;
+        var colontmp__553648598 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553648596 = subInt((n_p0.attrs).length, 2);
+        colontmp__553648598 = subInt((n_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553648597 = 0;
+        var res_553648599 = 0;
         Label8: {
           F.line = 69;
             Label9: while (true) {
-            if (!(res_553648597 <= colontmp__553648596)) break Label9;
+            if (!(res_553648599 <= colontmp__553648598)) break Label9;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553648595 = res_553648597;
+              i_553648597 = res_553648599;
               F.line = 223;
               F.filename = "karax.nim";
-              k_721420761 = n_p0.attrs[chckIndx(i_553648595, 0, (n_p0.attrs).length - 1)];
+              k_721420761 = n_p0.attrs[chckIndx(i_553648597, 0, (n_p0.attrs).length - 1)];
               F.line = 223;
-              v_721420762 = n_p0.attrs[chckIndx(addInt(i_553648595, 1), 0, (n_p0.attrs).length - 1)];
+              v_721420762 = n_p0.attrs[chckIndx(addInt(i_553648597, 1), 0, (n_p0.attrs).length - 1)];
               if (!((v_721420762 == null))) {
               F.line = 225;
               result_721420639.setAttribute(k_721420761, v_721420762);
@@ -2730,7 +2730,7 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553648597 = addInt(res_553648597, 2);
+              res_553648599 = addInt(res_553648599, 2);
             }
         };
       };
@@ -2838,20 +2838,20 @@ function eq__pkgZkaraxZvstyles_u258(a_p0, b_p1) {
       var i_822083880 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648852 = 0;
+      var colontmp__553648854 = 0;
       F.line = 240;
       F.filename = "vstyles.nim";
-      colontmp__553648852 = a_p0.length;
+      colontmp__553648854 = a_p0.length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648853 = 0;
+      var i_553648855 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648853 < colontmp__553648852)) break Label3;
+          if (!(i_553648855 < colontmp__553648854)) break Label3;
             F.line = 240;
             F.filename = "vstyles.nim";
-            i_822083880 = i_553648853;
+            i_822083880 = i_553648855;
             if (!((a_p0[i_822083880] == b_p1[i_822083880]))) {
             F.line = 241;
             result_822083845 = false;
@@ -2860,7 +2860,7 @@ function eq__pkgZkaraxZvstyles_u258(a_p0, b_p1) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648853 = addInt(i_553648853, 1);
+            i_553648855 = addInt(i_553648855, 1);
           }
       };
     };
@@ -2904,20 +2904,20 @@ function sameAttrs__pkgZkaraxZvdom_u1044(a_p0, b_p1) {
       var i_754975781 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648856 = 0;
+      var colontmp__553648858 = 0;
       F.line = 381;
       F.filename = "vdom.nim";
-      colontmp__553648856 = (a_p0.attrs).length;
+      colontmp__553648858 = (a_p0.attrs).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648857 = 0;
+      var i_553648859 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648857 < colontmp__553648856)) break Label3;
+          if (!(i_553648859 < colontmp__553648858)) break Label3;
             F.line = 381;
             F.filename = "vdom.nim";
-            i_754975781 = i_553648857;
+            i_754975781 = i_553648859;
             if (!((a_p0.attrs[chckIndx(i_754975781, 0, (a_p0.attrs).length - 1)] == b_p1.attrs[chckIndx(i_754975781, 0, (b_p1.attrs).length - 1)]))) {
             F.line = 382;
             result_754975767 = false;
@@ -2926,7 +2926,7 @@ function sameAttrs__pkgZkaraxZvdom_u1044(a_p0, b_p1) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648857 = addInt(i_553648857, 1);
+            i_553648859 = addInt(i_553648859, 1);
           }
       };
     };
@@ -2993,20 +2993,20 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
       var i_721420889 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648844 = 0;
+      var colontmp__553648846 = 0;
       F.line = 296;
       F.filename = "karax.nim";
-      colontmp__553648844 = len__pkgZkaraxZvdom_u842(a_p0);
+      colontmp__553648846 = len__pkgZkaraxZvdom_u842(a_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648845 = 0;
+      var i_553648847 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648845 < colontmp__553648844)) break Label3;
+          if (!(i_553648847 < colontmp__553648846)) break Label3;
             F.line = 296;
             F.filename = "karax.nim";
-            i_721420889 = i_553648845;
+            i_721420889 = i_553648847;
             if ((eq__pkgZkaraxZkarax_u580(HEX5BHEX5D__pkgZkaraxZvdom_u849(a_p0, i_721420889), HEX5BHEX5D__pkgZkaraxZvdom_u849(b_p1, i_721420889), recursive_p2) == 1)) {
             F.line = 297;
             result_721420872 = 1;
@@ -3015,7 +3015,7 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648845 = addInt(i_553648845, 1);
+            i_553648847 = addInt(i_553648847, 1);
           }
       };
     };
@@ -3081,20 +3081,20 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
       var i_721420915 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648848 = 0;
+      var colontmp__553648850 = 0;
       F.line = 329;
       F.filename = "karax.nim";
-      colontmp__553648848 = len__pkgZkaraxZvdom_u842(a_p0);
+      colontmp__553648850 = len__pkgZkaraxZvdom_u842(a_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648849 = 0;
+      var i_553648851 = 0;
       Label5: {
         F.line = 129;
           Label6: while (true) {
-          if (!(i_553648849 < colontmp__553648848)) break Label6;
+          if (!(i_553648851 < colontmp__553648850)) break Label6;
             F.line = 329;
             F.filename = "karax.nim";
-            i_721420915 = i_553648849;
+            i_721420915 = i_553648851;
             if (!((eq__pkgZkaraxZkarax_u580(HEX5BHEX5D__pkgZkaraxZvdom_u849(a_p0, i_721420915), HEX5BHEX5D__pkgZkaraxZvdom_u849(b_p1, i_721420915), true) == 3))) {
             F.line = 331;
             result_721420872 = 1;
@@ -3103,7 +3103,7 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648849 = addInt(i_553648849, 1);
+            i_553648851 = addInt(i_553648851, 1);
           }
       };
     };
@@ -3179,33 +3179,33 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
       Label2: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553648861 = 0;
+        var i_553648863 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553648862 = 0;
+        var colontmp__553648864 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553648862 = subInt((oldNode_p1.attrs).length, 2);
+        colontmp__553648864 = subInt((oldNode_p1.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553648863 = 0;
+        var res_553648865 = 0;
         Label3: {
           F.line = 69;
             Label4: while (true) {
-            if (!(res_553648863 <= colontmp__553648862)) break Label4;
+            if (!(res_553648865 <= colontmp__553648864)) break Label4;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553648861 = res_553648863;
+              i_553648863 = res_553648865;
               F.line = 353;
               F.filename = "karax.nim";
-              k_721421357 = oldNode_p1.attrs[chckIndx(i_553648861, 0, (oldNode_p1.attrs).length - 1)];
+              k_721421357 = oldNode_p1.attrs[chckIndx(i_553648863, 0, (oldNode_p1.attrs).length - 1)];
               F.line = 353;
-              __721421358 = oldNode_p1.attrs[chckIndx(addInt(i_553648861, 1), 0, (oldNode_p1.attrs).length - 1)];
+              __721421358 = oldNode_p1.attrs[chckIndx(addInt(i_553648863, 1), 0, (oldNode_p1.attrs).length - 1)];
               F.line = 354;
               oldNode_p1.dom.removeAttribute(k_721421357);
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553648863 = addInt(res_553648863, 2);
+              res_553648865 = addInt(res_553648865, 2);
             }
         };
       };
@@ -3219,28 +3219,28 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
       Label6: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553648867 = 0;
+        var i_553648869 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553648868 = 0;
+        var colontmp__553648870 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553648868 = subInt((newNode_p0.attrs).length, 2);
+        colontmp__553648870 = subInt((newNode_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553648869 = 0;
+        var res_553648871 = 0;
         Label7: {
           F.line = 69;
             Label8: while (true) {
-            if (!(res_553648869 <= colontmp__553648868)) break Label8;
+            if (!(res_553648871 <= colontmp__553648870)) break Label8;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553648867 = res_553648869;
+              i_553648869 = res_553648871;
               F.line = 355;
               F.filename = "karax.nim";
-              k_721421359 = newNode_p0.attrs[chckIndx(i_553648867, 0, (newNode_p0.attrs).length - 1)];
+              k_721421359 = newNode_p0.attrs[chckIndx(i_553648869, 0, (newNode_p0.attrs).length - 1)];
               F.line = 355;
-              v_721421360 = newNode_p0.attrs[chckIndx(addInt(i_553648867, 1), 0, (newNode_p0.attrs).length - 1)];
+              v_721421360 = newNode_p0.attrs[chckIndx(addInt(i_553648869, 1), 0, (newNode_p0.attrs).length - 1)];
               if (!((v_721421360 == null))) {
               F.line = 357;
               oldNode_p1.dom.setAttribute(k_721421359, v_721421360);
@@ -3248,7 +3248,7 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553648869 = addInt(res_553648869, 2);
+              res_553648871 = addInt(res_553648871, 2);
             }
         };
       };
@@ -3275,20 +3275,20 @@ function getAttr__pkgZkaraxZvdom_u821(n_p0, key_p1) {
       var i_754975553 = 0;
       F.line = 46;
       F.filename = "iterators_1.nim";
-      var colontmp__553648872 = 0;
+      var colontmp__553648874 = 0;
       F.line = 309;
       F.filename = "vdom.nim";
-      colontmp__553648872 = subInt((n_p0.attrs).length, 2);
+      colontmp__553648874 = subInt((n_p0.attrs).length, 2);
       F.line = 68;
       F.filename = "iterators_1.nim";
-      var res_553648873 = 0;
+      var res_553648875 = 0;
       Label2: {
         F.line = 69;
           Label3: while (true) {
-          if (!(res_553648873 <= colontmp__553648872)) break Label3;
+          if (!(res_553648875 <= colontmp__553648874)) break Label3;
             F.line = 309;
             F.filename = "vdom.nim";
-            i_754975553 = res_553648873;
+            i_754975553 = res_553648875;
             if ((n_p0.attrs[chckIndx(i_754975553, 0, (n_p0.attrs).length - 1)] == key_p1)) {
             F.line = 310;
             result_754975544 = n_p0.attrs[chckIndx(addInt(i_754975553, 1), 0, (n_p0.attrs).length - 1)];
@@ -3297,7 +3297,7 @@ function getAttr__pkgZkaraxZvdom_u821(n_p0, key_p1) {
             
             F.line = 74;
             F.filename = "iterators_1.nim";
-            res_553648873 = addInt(res_553648873, 2);
+            res_553648875 = addInt(res_553648875, 2);
           }
       };
     };
@@ -3318,25 +3318,25 @@ function removeAllEventHandlers__pkgZkaraxZkarax_u149(d_p0) {
       var i_721420454 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648876 = 0;
+      var colontmp__553648878 = 0;
       F.line = 101;
       F.filename = "karax.nim";
-      colontmp__553648876 = d_p0.karaxEvents.length;
+      colontmp__553648878 = d_p0.karaxEvents.length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648877 = 0;
+      var i_553648879 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648877 < colontmp__553648876)) break Label3;
+          if (!(i_553648879 < colontmp__553648878)) break Label3;
             F.line = 101;
             F.filename = "karax.nim";
-            i_721420454 = i_553648877;
+            i_721420454 = i_553648879;
             F.line = 102;
             d_p0.removeEventListener(d_p0.karaxEvents[i_721420454]["Field0"], d_p0.karaxEvents[i_721420454]["Field1"], false);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648877 = addInt(i_553648877, 1);
+            i_553648879 = addInt(i_553648879, 1);
           }
       };
     };
@@ -3521,25 +3521,25 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421611 = 0;
         F.line = 81;
         F.filename = "iterators_1.nim";
-        var colontmp__553648831 = 0;
+        var colontmp__553648833 = 0;
         F.line = 552;
         F.filename = "karax.nim";
-        colontmp__553648831 = subInt(pos_721421606, 1);
+        colontmp__553648833 = subInt(pos_721421606, 1);
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553648832 = commonPrefix_721421580;
+        var res_553648834 = commonPrefix_721421580;
         Label7: {
           F.line = 97;
             Label8: while (true) {
-            if (!(res_553648832 <= colontmp__553648831)) break Label8;
+            if (!(res_553648834 <= colontmp__553648833)) break Label8;
               F.line = 552;
               F.filename = "karax.nim";
-              i_721421611 = res_553648832;
+              i_721421611 = res_553648834;
               F.line = 553;
               diff__pkgZkaraxZkarax_u1246(HEX5BHEX5D__pkgZkaraxZvdom_u849(newNode_p0, i_721421611), HEX5BHEX5D__pkgZkaraxZvdom_u849(oldNode_p1, i_721421611), current_p3, HEX5BHEX5D__pkgZkaraxZvdom_u849(oldNode_p1, i_721421611).dom, kxi_p4);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553648832 = addInt(res_553648832, 1);
+              res_553648834 = addInt(res_553648834, 1);
             }
         };
       };
@@ -3550,19 +3550,19 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421616 = 0;
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553648835 = pos_721421606;
+        var res_553648837 = pos_721421606;
         Label10: {
           F.line = 97;
             Label11: while (true) {
-            if (!(res_553648835 <= newPos_721421591)) break Label11;
+            if (!(res_553648837 <= newPos_721421591)) break Label11;
               F.line = 556;
               F.filename = "karax.nim";
-              i_721421616 = res_553648835;
+              i_721421616 = res_553648837;
               F.line = 557;
               addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 2, current_p3, null, HEX5BHEX5D__pkgZkaraxZvdom_u849(newNode_p0, i_721421616), null);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553648835 = addInt(res_553648835, 1);
+              res_553648837 = addInt(res_553648837, 1);
             }
         };
       };
@@ -3576,19 +3576,19 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
           var i_721421622 = 0;
           F.line = 96;
           F.filename = "iterators_1.nim";
-          var res_553648838 = pos_721421606;
+          var res_553648840 = pos_721421606;
           Label13: {
             F.line = 97;
               Label14: while (true) {
-              if (!(res_553648838 <= newPos_721421591)) break Label14;
+              if (!(res_553648840 <= newPos_721421591)) break Label14;
                 F.line = 560;
                 F.filename = "karax.nim";
-                i_721421622 = res_553648838;
+                i_721421622 = res_553648840;
                 F.line = 561;
                 addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 3, current_p3, before_721421617, HEX5BHEX5D__pkgZkaraxZvdom_u849(newNode_p0, i_721421622), null);
                 F.line = 102;
                 F.filename = "iterators_1.nim";
-                res_553648838 = addInt(res_553648838, 1);
+                res_553648840 = addInt(res_553648840, 1);
               }
           };
         };
@@ -3600,21 +3600,21 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421627 = 0;
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553648841 = pos_721421606;
+        var res_553648843 = pos_721421606;
         Label16: {
           F.line = 97;
             Label17: while (true) {
-            if (!(res_553648841 <= oldPos_721421590)) break Label17;
+            if (!(res_553648843 <= oldPos_721421590)) break Label17;
               F.line = 563;
               F.filename = "karax.nim";
-              i_721421627 = res_553648841;
+              i_721421627 = res_553648843;
               F.line = 564;
               addPatch__pkgZkaraxZkarax_u1082(kxi__, 4, null, null, null, HEX5BHEX5D__pkgZkaraxZvdom_u849(oldNode_p1, i_721421627));
               F.line = 566;
               addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 1, current_p3, current_p3.childNodes[chckIndx(i_721421627, 0, (current_p3.childNodes).length - 1)], null, null);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553648841 = addInt(res_553648841, 1);
+              res_553648843 = addInt(res_553648843, 1);
             }
         };
       };
@@ -3730,25 +3730,25 @@ function moveDom__pkgZkaraxZkarax_u1176(dest_p0, src_p1) {
       var i_721421482 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553648887 = 0;
+      var colontmp__553648889 = 0;
       F.line = 420;
       F.filename = "karax.nim";
-      colontmp__553648887 = len__pkgZkaraxZvdom_u842(dest_p0);
+      colontmp__553648889 = len__pkgZkaraxZvdom_u842(dest_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648888 = 0;
+      var i_553648890 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648888 < colontmp__553648887)) break Label3;
+          if (!(i_553648890 < colontmp__553648889)) break Label3;
             F.line = 420;
             F.filename = "karax.nim";
-            i_721421482 = i_553648888;
+            i_721421482 = i_553648890;
             F.line = 421;
             moveDom__pkgZkaraxZkarax_u1176(HEX5BHEX5D__pkgZkaraxZvdom_u849(dest_p0, i_721421482), HEX5BHEX5D__pkgZkaraxZvdom_u849(src_p1, i_721421482));
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648888 = addInt(i_553648888, 1);
+            i_553648890 = addInt(i_553648890, 1);
           }
       };
     };
@@ -3777,14 +3777,14 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
       var i_721421489 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648881 = 0;
+      var i_553648883 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553648881 < kxi_p0.patchLen)) break Label3;
+          if (!(i_553648883 < kxi_p0.patchLen)) break Label3;
             F.line = 424;
             F.filename = "karax.nim";
-            i_721421489 = i_553648881;
+            i_721421489 = i_553648883;
             F.line = 425;
             var p_721421490 = nimCopy(null, kxi_p0.patches[chckIndx(i_721421489, 0, (kxi_p0.patches).length - 1)], NTI721420296);
             F.line = 426;
@@ -3856,7 +3856,7 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
             }
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648881 = addInt(i_553648881, 1);
+            i_553648883 = addInt(i_553648883, 1);
           }
       };
     };
@@ -3868,14 +3868,14 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
       var i_721421521 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553648884 = 0;
+      var i_553648886 = 0;
       Label5: {
         F.line = 129;
           Label6: while (true) {
-          if (!(i_553648884 < kxi_p0.patchLenV)) break Label6;
+          if (!(i_553648886 < kxi_p0.patchLenV)) break Label6;
             F.line = 455;
             F.filename = "karax.nim";
-            i_721421521 = i_553648884;
+            i_721421521 = i_553648886;
             F.line = 456;
             var p_721421522 = nimCopy(null, kxi_p0.patchesV[chckIndx(i_721421521, 0, (kxi_p0.patchesV).length - 1)], NTI721420297);
             F.line = 457;
@@ -3887,7 +3887,7 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553648884 = addInt(i_553648884, 1);
+            i_553648886 = addInt(i_553648886, 1);
           }
       };
     };
@@ -3907,28 +3907,28 @@ function dodraw__pkgZkaraxZkarax_u1453(kxi_p0) {
   BeforeRet: {
     F.line = 680;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648543 = null;
+    var HEX3Aenv_553648545 = null;
     F.line = 680;
-    HEX3Aenv_553648543 = {m_type: NTI553648423, kxi0: null};
+    HEX3Aenv_553648545 = {m_type: NTI553648431, kxi0: null};
     F.line = 679;
-    HEX3Aenv_553648543.kxi0 = kxi_p0;
-    if ((HEX3Aenv_553648543.kxi0.renderer == null)) {
+    HEX3Aenv_553648545.kxi0 = kxi_p0;
+    if ((HEX3Aenv_553648545.kxi0.renderer == null)) {
     F.line = 680;
     break BeforeRet;
     }
     
     F.line = 681;
-    HEX3Aenv_553648543.kxi0.renderId = 0;
-    if (HEX3Aenv_553648543.kxi0.rendering) {
+    HEX3Aenv_553648545.kxi0.renderId = 0;
+    if (HEX3Aenv_553648545.kxi0.rendering) {
     F.line = 685;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1458.bind(HEX3Aenv_553648543); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1458; Temporary1.ClE_0 = HEX3Aenv_553648543;
-    HEX3Aenv_553648543.kxi0.renderId = window.requestAnimationFrame(Temporary1);
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1458.bind(HEX3Aenv_553648545); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1458; Temporary1.ClE_0 = HEX3Aenv_553648545;
+    HEX3Aenv_553648545.kxi0.renderId = window.requestAnimationFrame(Temporary1);
     F.line = 686;
     break BeforeRet;
     }
     
     F.line = 688;
-    HEX3Aenv_553648543.kxi0.rendering = true;
+    HEX3Aenv_553648545.kxi0.rendering = true;
     F.line = 690;
     var rdata_721421747 = {hashPart: null, queryString: null};
     if ((window.location.hash.indexOf("?")>=0)) {
@@ -3947,44 +3947,44 @@ function dodraw__pkgZkaraxZkarax_u1453(kxi_p0) {
     }
     
     F.line = 699;
-    var newtree_721421782 = HEX3Aenv_553648543.kxi0.renderer(rdata_721421747);
+    var newtree_721421782 = HEX3Aenv_553648545.kxi0.renderer(rdata_721421747);
     F.line = 700;
-    HEX3Aenv_553648543.kxi0.runCount = addInt(HEX3Aenv_553648543.kxi0.runCount, 1);
+    HEX3Aenv_553648545.kxi0.runCount = addInt(HEX3Aenv_553648545.kxi0.runCount, 1);
     F.line = 701;
-    newtree_721421782.id = HEX3Aenv_553648543.kxi0.rootId;
+    newtree_721421782.id = HEX3Aenv_553648545.kxi0.rootId;
     F.line = 702;
-    HEX3Aenv_553648543.kxi0.toFocus = null;
-    if ((HEX3Aenv_553648543.kxi0.currentTree == null)) {
+    HEX3Aenv_553648545.kxi0.toFocus = null;
+    if ((HEX3Aenv_553648545.kxi0.currentTree == null)) {
     F.line = 704;
-    var asdom_721421792 = toDom__pkgZkaraxZkarax_u347(newtree_721421782, true, HEX3Aenv_553648543.kxi0);
+    var asdom_721421792 = toDom__pkgZkaraxZkarax_u347(newtree_721421782, true, HEX3Aenv_553648545.kxi0);
     F.line = 705;
-    replaceById__pkgZkaraxZkarax_u567(HEX3Aenv_553648543.kxi0.rootId, asdom_721421792);
+    replaceById__pkgZkaraxZkarax_u567(HEX3Aenv_553648545.kxi0.rootId, asdom_721421792);
     }
     else {
       F.line = 709;
-      var olddom_721421793 = document.getElementById(HEX3Aenv_553648543.kxi0.rootId);
+      var olddom_721421793 = document.getElementById(HEX3Aenv_553648545.kxi0.rootId);
       F.line = 710;
-      diff__pkgZkaraxZkarax_u1246(newtree_721421782, HEX3Aenv_553648543.kxi0.currentTree, null, olddom_721421793, HEX3Aenv_553648543.kxi0);
+      diff__pkgZkaraxZkarax_u1246(newtree_721421782, HEX3Aenv_553648545.kxi0.currentTree, null, olddom_721421793, HEX3Aenv_553648545.kxi0);
     }
     
     F.line = 714;
-    applyComponents__pkgZkaraxZkarax_u1364(HEX3Aenv_553648543.kxi0);
+    applyComponents__pkgZkaraxZkarax_u1364(HEX3Aenv_553648545.kxi0);
     F.line = 719;
-    applyPatch__pkgZkaraxZkarax_u1195(HEX3Aenv_553648543.kxi0);
+    applyPatch__pkgZkaraxZkarax_u1195(HEX3Aenv_553648545.kxi0);
     F.line = 720;
-    HEX3Aenv_553648543.kxi0.currentTree = newtree_721421782;
-    if (!((HEX3Aenv_553648543.kxi0.postRenderCallback == null))) {
+    HEX3Aenv_553648545.kxi0.currentTree = newtree_721421782;
+    if (!((HEX3Aenv_553648545.kxi0.postRenderCallback == null))) {
     F.line = 725;
-    HEX3Aenv_553648543.kxi0.postRenderCallback(rdata_721421747);
+    HEX3Aenv_553648545.kxi0.postRenderCallback(rdata_721421747);
     }
     
-    if (!((HEX3Aenv_553648543.kxi0.toFocus == null))) {
+    if (!((HEX3Aenv_553648545.kxi0.toFocus == null))) {
     F.line = 729;
-    HEX3Aenv_553648543.kxi0.toFocus.focus();
+    HEX3Aenv_553648545.kxi0.toFocus.focus();
     }
     
     F.line = 730;
-    HEX3Aenv_553648543.kxi0.rendering = false;
+    HEX3Aenv_553648545.kxi0.rendering = false;
   };
   framePtr = F.prev;
 
@@ -4034,15 +4034,15 @@ function redraw__pkgZkaraxZkarax_u1550(kxi_p0) {
   framePtr = F;
     F.line = 743;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648893 = null;
+    var HEX3Aenv_553648895 = null;
     F.line = 743;
-    HEX3Aenv_553648893 = {m_type: NTI553648594, kxi0: null};
+    HEX3Aenv_553648895 = {m_type: NTI553648602, kxi0: null};
     F.line = 736;
-    HEX3Aenv_553648893.kxi0 = kxi_p0;
-    if ((HEX3Aenv_553648893.kxi0.renderId == 0)) {
+    HEX3Aenv_553648895.kxi0 = kxi_p0;
+    if ((HEX3Aenv_553648895.kxi0.renderId == 0)) {
     F.line = 744;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1552.bind(HEX3Aenv_553648893); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1552; Temporary1.ClE_0 = HEX3Aenv_553648893;
-    HEX3Aenv_553648893.kxi0.renderId = window.requestAnimationFrame(Temporary1);
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1552.bind(HEX3Aenv_553648895); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1552; Temporary1.ClE_0 = HEX3Aenv_553648895;
+    HEX3Aenv_553648895.kxi0.renderId = window.requestAnimationFrame(Temporary1);
     }
     
   framePtr = F.prev;
@@ -4131,16 +4131,16 @@ function setRenderer__pkgZkaraxZkarax_u1870(renderer_p0, root_p1, clientPostRend
   framePtr = F;
     F.line = 782;
     F.filename = "karax.nim";
-    var HEX3Aenv_553648492 = null;
+    var HEX3Aenv_553648494 = null;
     F.line = 782;
-    HEX3Aenv_553648492 = {m_type: NTI553648396, renderer0: null, clientPostRenderCallback1: null};
+    HEX3Aenv_553648494 = {m_type: NTI553648404, renderer0: null, clientPostRenderCallback1: null};
     F.line = 776;
-    HEX3Aenv_553648492.renderer0 = renderer_p0;
+    HEX3Aenv_553648494.renderer0 = renderer_p0;
     F.line = 777;
-    HEX3Aenv_553648492.clientPostRenderCallback1 = clientPostRenderCallback_p2;
+    HEX3Aenv_553648494.clientPostRenderCallback1 = clientPostRenderCallback_p2;
     F.line = 778;
-    Temporary1 = wrapRenderer__pkgZkaraxZkarax_u1877.bind(HEX3Aenv_553648492); Temporary1.ClP_0 = wrapRenderer__pkgZkaraxZkarax_u1877; Temporary1.ClE_0 = HEX3Aenv_553648492;
-    Temporary2 = wrapPostRender__pkgZkaraxZkarax_u1880.bind(HEX3Aenv_553648492); Temporary2.ClP_0 = wrapPostRender__pkgZkaraxZkarax_u1880; Temporary2.ClE_0 = HEX3Aenv_553648492;
+    Temporary1 = wrapRenderer__pkgZkaraxZkarax_u1877.bind(HEX3Aenv_553648494); Temporary1.ClP_0 = wrapRenderer__pkgZkaraxZkarax_u1877; Temporary1.ClE_0 = HEX3Aenv_553648494;
+    Temporary2 = wrapPostRender__pkgZkaraxZkarax_u1880.bind(HEX3Aenv_553648494); Temporary2.ClP_0 = wrapPostRender__pkgZkaraxZkarax_u1880; Temporary2.ClE_0 = HEX3Aenv_553648494;
     result_721422164 = setRenderer__pkgZkaraxZkarax_u1589(Temporary1, root_p1, Temporary2);
   framePtr = F.prev;
 
@@ -4186,19 +4186,19 @@ function tree__pkgZkaraxZvdom_u943(kind_p0, kids_p1) {
       var k_754975679 = null;
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553648938 = 0;
+      var i_553648940 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553648938 < (kids_p1).length)) break Label3;
+          if (!(i_553648940 < (kids_p1).length)) break Label3;
             F.line = 353;
             F.filename = "vdom.nim";
-            k_754975679 = kids_p1[chckIndx(i_553648938, 0, (kids_p1).length - 1)];
+            k_754975679 = kids_p1[chckIndx(i_553648940, 0, (kids_p1).length - 1)];
             F.line = 353;
             add__pkgZkaraxZvdom_u857(result_754975666, k_754975679);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553648938 += 1;
+            i_553648940 += 1;
           }
       };
     };
@@ -4237,20 +4237,20 @@ function setAttr__pkgZkaraxZvdom_u772(n_p0, key_p1, val_p2) {
         var i_754975512 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553648941 = 0;
+        var colontmp__553648943 = 0;
         F.line = 288;
         F.filename = "vdom.nim";
-        colontmp__553648941 = subInt((n_p0.attrs).length, 2);
+        colontmp__553648943 = subInt((n_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553648942 = 0;
+        var res_553648944 = 0;
         Label2: {
           F.line = 69;
             Label3: while (true) {
-            if (!(res_553648942 <= colontmp__553648941)) break Label3;
+            if (!(res_553648944 <= colontmp__553648943)) break Label3;
               F.line = 288;
               F.filename = "vdom.nim";
-              i_754975512 = res_553648942;
+              i_754975512 = res_553648944;
               if ((n_p0.attrs[chckIndx(i_754975512, 0, (n_p0.attrs).length - 1)] == key_p1)) {
               F.line = 290;
               n_p0.attrs[chckIndx(addInt(i_754975512, 1), 0, (n_p0.attrs).length - 1)] = val_p2;
@@ -4260,7 +4260,7 @@ function setAttr__pkgZkaraxZvdom_u772(n_p0, key_p1, val_p2) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553648942 = addInt(res_553648942, 2);
+              res_553648944 = addInt(res_553648944, 2);
             }
         };
       };
@@ -4296,62 +4296,62 @@ function renderMain__app_u147() {
 
   var F = {procname: "app.renderMain", prev: framePtr, filename: "C:\\Users\\noems\\OneDrive\\Bureau\\myport\\app.nim", line: 0};
   framePtr = F;
-    F.line = 82;
+    F.line = 86;
     F.filename = "app.nim";
-    F.line = 82;
+    F.line = 86;
     var tmp_553648277 = tree__pkgZkaraxZvdom_u943(44, []);
-    F.line = 82;
+    F.line = 86;
     tmp_553648277.class = "myclass";
-    F.line = 83;
-    var tmp_553648279 = tree__pkgZkaraxZvdom_u943(21, []);
-    F.line = 84;
-    add__pkgZkaraxZvdom_u857(tmp_553648279, text__pkgZkaraxZvdom_u1011([102,117,116,117,114,101,98,97,115,115,109,101,111,119]));
-    F.line = 84;
-    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648279);
-    F.line = 85;
-    var tmp_553648280 = tree__pkgZkaraxZvdom_u943(23, []);
-    F.line = 86;
-    add__pkgZkaraxZvdom_u857(tmp_553648280, text__pkgZkaraxZvdom_u1011([102,111,114,109,101,114,32,109,117,115,105,99,105,101,110,32,38,32,115,111,117,110,100,32,100,101,115,105,103,110,101,114,32,45,32,119,97,110,110,97,98,101,32,100,101,118,101,108,111,112,101,114,32,45,32,115,97,100]));
-    F.line = 86;
-    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648280);
     F.line = 87;
+    var tmp_553648279 = tree__pkgZkaraxZvdom_u943(21, []);
+    F.line = 88;
+    add__pkgZkaraxZvdom_u857(tmp_553648279, text__pkgZkaraxZvdom_u1011([102,117,116,117,114,101,98,97,115,115,109,101,111,119]));
+    F.line = 88;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648279);
+    F.line = 89;
+    var tmp_553648280 = tree__pkgZkaraxZvdom_u943(23, []);
+    F.line = 90;
+    add__pkgZkaraxZvdom_u857(tmp_553648280, text__pkgZkaraxZvdom_u1011([102,111,114,109,101,114,32,109,117,115,105,99,105,101,110,32,38,32,115,111,117,110,100,32,100,101,115,105,103,110,101,114,32,45,32,119,97,110,110,97,98,101,32,100,101,118,101,108,111,112,101,114,32,45,32,115,97,100]));
+    F.line = 90;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648280);
+    F.line = 91;
     var tmp_553648281 = tree__pkgZkaraxZvdom_u943(18, []);
     Label1: {
-      F.line = 88;
-      var i_553648330 = 0;
-      F.line = 88;
-      var page_553648331 = null;
+      F.line = 92;
+      var i_553648332 = 0;
+      F.line = 92;
+      var page_553648333 = null;
       F.line = 182;
       F.filename = "iterators.nim";
-      var i_553648928 = 0;
+      var i_553648930 = 0;
       F.line = 183;
-      var L_553648929 = (list_553648139[0]).length;
+      var L_553648931 = (list_553648139[0]).length;
       Label2: {
         F.line = 184;
           Label3: while (true) {
-          if (!(i_553648928 < L_553648929)) break Label3;
-            F.line = 88;
-            F.filename = "app.nim";
-            i_553648330 = i_553648928;
-            F.line = 88;
-            page_553648331 = list_553648139[0][chckIndx(i_553648928, 0, (list_553648139[0]).length - 1)];
-            F.line = 89;
-            var tmp_553648282 = tree__pkgZkaraxZvdom_u943(45, []);
-            F.line = 89;
-            setAttr__pkgZkaraxZvdom_u772(tmp_553648282, "href", "#/");
-            F.line = 90;
-            add__pkgZkaraxZvdom_u857(tmp_553648282, text__pkgZkaraxZvdom_u1014(page_553648331));
-            F.line = 90;
-            add__pkgZkaraxZvdom_u857(tmp_553648281, tmp_553648282);
-            if ((i_553648330 < subInt((list_553648139[0]).length, 1))) {
+          if (!(i_553648930 < L_553648931)) break Label3;
             F.line = 92;
+            F.filename = "app.nim";
+            i_553648332 = i_553648930;
+            F.line = 92;
+            page_553648333 = list_553648139[0][chckIndx(i_553648930, 0, (list_553648139[0]).length - 1)];
+            F.line = 93;
+            var tmp_553648282 = tree__pkgZkaraxZvdom_u943(45, []);
+            F.line = 93;
+            setAttr__pkgZkaraxZvdom_u772(tmp_553648282, "href", "#/");
+            F.line = 94;
+            add__pkgZkaraxZvdom_u857(tmp_553648282, text__pkgZkaraxZvdom_u1014(page_553648333));
+            F.line = 94;
+            add__pkgZkaraxZvdom_u857(tmp_553648281, tmp_553648282);
+            if ((i_553648332 < subInt((list_553648139[0]).length, 1))) {
+            F.line = 96;
             add__pkgZkaraxZvdom_u857(tmp_553648281, text__pkgZkaraxZvdom_u1011([32,45,45,45,45,45,32]));
             }
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553648928 += 1;
-            if (!(((list_553648139[0]).length == L_553648929))) {
+            i_553648930 += 1;
+            if (!(((list_553648139[0]).length == L_553648931))) {
             F.line = 187;
             failedAssertImpl__stdZassertions_u86(makeNimstrLit("C:\\Users\\noems\\AppData\\Local\\grabnim\\nim-2.2.8\\lib\\system\\iterators.nim(187, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -4359,52 +4359,64 @@ function renderMain__app_u147() {
           }
       };
     };
-    F.line = 92;
+    F.line = 96;
     F.filename = "app.nim";
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648281);
-    F.line = 94;
+    F.line = 98;
     var tmp_553648283 = tree__pkgZkaraxZvdom_u943(32, []);
-    F.line = 95;
+    F.line = 99;
     add__pkgZkaraxZvdom_u857(tmp_553648283, text__pkgZkaraxZvdom_u1011(makeNimstrLit("je veux faire des trucs utiles quand je ne peux pas les faire et d\xC3\xA8s que je peux les faire je fais des trucs inutiles")));
-    F.line = 95;
+    F.line = 99;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648283);
-    F.line = 97;
-    var tmp_553648284 = tree__pkgZkaraxZvdom_u943(22, []);
-    F.line = 98;
-    add__pkgZkaraxZvdom_u857(tmp_553648284, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
-    F.line = 98;
+    F.line = 101;
+    var tmp_553648284 = tree__pkgZkaraxZvdom_u943(24, []);
+    F.line = 102;
+    add__pkgZkaraxZvdom_u857(tmp_553648284, text__pkgZkaraxZvdom_u1011([112,111,117,114,113,117,111,105,32,108,101,32,116,101,108,101,103,108,105,116,99,104,32,101,115,116,32,108,101,32,109,101,105,108,108,101,117,114,32,106,101,117,32,100,101,32,116,111,117,115,32,108,101,115,32,116,101,109,112,115]));
+    F.line = 102;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648284);
-    F.line = 100;
-    var tmp_553648285 = tree__pkgZkaraxZvdom_u943(24, []);
-    F.line = 101;
-    add__pkgZkaraxZvdom_u857(tmp_553648285, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 vous vous demandez s\xC3\xBBrement comment j\'en suis arriv\xC3\xA9 l\xC3\xA0")));
-    F.line = 101;
+    F.line = 104;
+    var tmp_553648285 = tree__pkgZkaraxZvdom_u943(32, []);
+    F.line = 105;
+    add__pkgZkaraxZvdom_u857(tmp_553648285, text__pkgZkaraxZvdom_u1011([112,97,114,99,101,32,113,117,101,32,99,101,115,116,32,108,101,32,109,101,105,108,108,101,117,114,32,106,101,117,32,100,101,32,116,111,117,115,32,108,101,115,32,116,101,109,112,115]));
+    F.line = 105;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648285);
+    F.line = 107;
+    var tmp_553648286 = tree__pkgZkaraxZvdom_u943(22, []);
+    F.line = 108;
+    add__pkgZkaraxZvdom_u857(tmp_553648286, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
+    F.line = 108;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648286);
+    F.line = 110;
+    var tmp_553648287 = tree__pkgZkaraxZvdom_u943(24, []);
+    F.line = 111;
+    add__pkgZkaraxZvdom_u857(tmp_553648287, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 vous vous demandez s\xC3\xBBrement comment j\'en suis arriv\xC3\xA9 l\xC3\xA0")));
+    F.line = 111;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648287);
     Label4: {
-      F.line = 102;
-      var str_553648356 = [];
+      F.line = 112;
+      var str_553648358 = [];
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553648933 = 0;
+      var i_553648935 = 0;
       F.line = 250;
-      var L_553648934 = (rdthoughts_553648160[0]).length;
+      var L_553648936 = (rdthoughts_553648160[0]).length;
       Label5: {
         F.line = 251;
           Label6: while (true) {
-          if (!(i_553648933 < L_553648934)) break Label6;
-            F.line = 102;
+          if (!(i_553648935 < L_553648936)) break Label6;
+            F.line = 112;
             F.filename = "app.nim";
-            str_553648356 = rdthoughts_553648160[0][chckIndx(i_553648933, 0, (rdthoughts_553648160[0]).length - 1)];
-            F.line = 103;
-            var tmp_553648286 = tree__pkgZkaraxZvdom_u943(32, []);
-            F.line = 104;
-            add__pkgZkaraxZvdom_u857(tmp_553648286, text__pkgZkaraxZvdom_u1011(str_553648356));
-            F.line = 104;
-            add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648286);
+            str_553648358 = rdthoughts_553648160[0][chckIndx(i_553648935, 0, (rdthoughts_553648160[0]).length - 1)];
+            F.line = 113;
+            var tmp_553648288 = tree__pkgZkaraxZvdom_u943(32, []);
+            F.line = 114;
+            add__pkgZkaraxZvdom_u857(tmp_553648288, text__pkgZkaraxZvdom_u1011(str_553648358));
+            F.line = 114;
+            add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648288);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553648933 += 1;
-            if (!(((rdthoughts_553648160[0]).length == L_553648934))) {
+            i_553648935 += 1;
+            if (!(((rdthoughts_553648160[0]).length == L_553648936))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u86(makeNimstrLit("C:\\Users\\noems\\AppData\\Local\\grabnim\\nim-2.2.8\\lib\\system\\iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -4412,25 +4424,25 @@ function renderMain__app_u147() {
           }
       };
     };
-    F.line = 106;
+    F.line = 116;
     F.filename = "app.nim";
-    var tmp_553648287 = tree__pkgZkaraxZvdom_u943(22, []);
-    F.line = 107;
-    add__pkgZkaraxZvdom_u857(tmp_553648287, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
-    F.line = 107;
-    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648287);
-    F.line = 108;
-    var tmp_553648288 = tree__pkgZkaraxZvdom_u943(24, []);
-    F.line = 109;
-    add__pkgZkaraxZvdom_u857(tmp_553648288, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 pourquoi la scene underground se comportent tous comme des tocards")));
-    F.line = 109;
-    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648288);
-    F.line = 110;
-    var tmp_553648289 = tree__pkgZkaraxZvdom_u943(32, []);
-    F.line = 111;
-    add__pkgZkaraxZvdom_u857(tmp_553648289, text__pkgZkaraxZvdom_u1011(makeNimstrLit("jvoulais faire un post sur xo et puis jai eu la flemme maisquil nique sa mere lui et sa claude fanfic . ca nous fait le philosophe pour d\xC3\xA9fendre l\'utilisation de robots dans l\'art sayez gros va faire d drums un peu")));
-    F.line = 111;
+    var tmp_553648289 = tree__pkgZkaraxZvdom_u943(22, []);
+    F.line = 117;
+    add__pkgZkaraxZvdom_u857(tmp_553648289, text__pkgZkaraxZvdom_u1011([45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45]));
+    F.line = 117;
     add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648289);
+    F.line = 118;
+    var tmp_553648290 = tree__pkgZkaraxZvdom_u943(24, []);
+    F.line = 119;
+    add__pkgZkaraxZvdom_u857(tmp_553648290, text__pkgZkaraxZvdom_u1011(makeNimstrLit("16/07/26 pourquoi la scene underground se comportent tous comme des tocards")));
+    F.line = 119;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648290);
+    F.line = 120;
+    var tmp_553648291 = tree__pkgZkaraxZvdom_u943(32, []);
+    F.line = 121;
+    add__pkgZkaraxZvdom_u857(tmp_553648291, text__pkgZkaraxZvdom_u1011(makeNimstrLit("jvoulais faire un post sur xo et puis jai eu la flemme maisquil nique sa mere lui et sa claude fanfic . ca nous fait le philosophe pour d\xC3\xA9fendre l\'utilisation de robots dans l\'art sayez gros va faire d drums un peu")));
+    F.line = 121;
+    add__pkgZkaraxZvdom_u857(tmp_553648277, tmp_553648291);
     result_553648276 = tmp_553648277;
   framePtr = F.prev;
 
@@ -4438,25 +4450,25 @@ function renderMain__app_u147() {
 
 }
 
-function createDom__app_u229() {
+function createDom__app_u231() {
     var Temporary1;
 
-  var result_553648358 = null;
+  var result_553648360 = null;
 
   var F = {procname: "app.createDom", prev: framePtr, filename: "C:\\Users\\noems\\OneDrive\\Bureau\\myport\\app.nim", line: 0};
   framePtr = F;
-    F.line = 114;
+    F.line = 124;
     F.filename = "app.nim";
-    F.line = 114;
+    F.line = 124;
     switch (currentState_553648145[0]) {
     case 0:
       Temporary1 = renderMain__app_u147();
       break;
     }
-    result_553648358 = Temporary1;
+    result_553648360 = Temporary1;
   framePtr = F.prev;
 
-  return result_553648358;
+  return result_553648360;
 
 }
 var Temporary1;
@@ -4470,12 +4482,12 @@ var currentState_553648145 = [0];
 F.line = 17;
 var projects_553648155 = [[{name: "DATAMOSH THERAPY", image: null}, {name: "RIPPLES", image: null}, {name: "PERC GENERATOR", image: null}, {name: "RISK OF RAIN REDESIGN", image: null}]];
 F.line = 24;
-var rdthoughts_553648160 = [[[32,32,32,32,116,101,120,116,101,32,98,105,101,110,32,116,114,111,112,32,108,111,110,103,32,109,97,105,115,32,102,97,108,108,97,105,116,32,113,117,101,32,106,101,32,121,97,112,32,117,110,32,112,101,117,32,10,32,32], makeNimstrLit("    Au coll\xC3\xA8ge, quand jai commenc\xC3\xA9 a faire de la musique, je ne me suis jamais pos\xC3\xA9 la question de **pourquoi** je le faisais. \xC3\xA0 l\'\xC3\xA9poque, mon dumb ass brain \xC3\xA9tait incapable de se fixer et grind un seul int\xC3\xA9r\xC3\xAAt, genre une passion, un sport (??), une forme d\'art, peu importe. Apres des ann\xC3\xA9es \xC3\xA0 essayer de comprendre ce que j\'aimais, ce que je voulais faire dans la vie, et comment je voulais le faire, j\'ai d\xC3\xA9couvert la musique \xC3\xA9lectronique plut\xC3\xB4t par hasard, et j\'ai commenc\xC3\xA9 \xC3\xA0 apprendre assez instinctivement. Jusque lors je n\'avais jamais \xC3\xA9t\xC3\xA9 s\xC3\xA9rieusement int\xC3\xA9ress\xC3\xA9 par le sujet. Ma culture musicale se r\xC3\xA9sumait \xC3\xA0 ncs et aux tops nrj12. Cette culture, je l\'ai donc forg\xC3\xA9e avec le temps, en apprenant, en \xC3\xA9coutant des nouvelles choses et surtout, en grandissant. la musique \xC3\xA9tait devenu le seul centre d\'int\xC3\xA9r\xC3\xAAt que j\'avais et qui avait comme don de ne pas me lasser, donc jai continu\xC3\xA9. Vers le lyc\xC3\xA9e, jai simplement r\xC3\xA9alis\xC3\xA9 que j\'\xC3\xA9tais arriv\xC3\xA9 trop loin pour m\'arr\xC3\xAAter, donc jai voulu m\'orienter l\xC3\xA0 dedans.\x0A  "), makeNimstrLit("    je passerai les d\xC3\xA9tails ici, si vous lisez \xC3\xA7a vous savez. Mon obsession apr\xC3\xA8s avoir eu mon bac a \xC3\xA9t\xC3\xA9 de continuer d\'apprendre. Le sound design, la production, le mix, etc.... jai effectivement appris ces choses l\xC3\xA0, d\xC3\xA9croch\xC3\xA9 un dipl\xC3\xB4me, puis, en 2024, DATAMOSH THERAPY est n\xC3\xA9. 2 ans de projets hybrides ableton/flstudio/pro-tools et moi qui raconte des trucs que le moi du futur aurait s\xC3\xBBrement tr\xC3\xA8s honte (c\'est le cas). Javais atteint le seul objectif que j\'avais en t\xC3\xAAte \xC3\xA0 ce moment. Cet album \xC3\xA9tait la concr\xC3\xA9tisation de tout ce que javais imagin\xC3\xA9 depuis 2020, quand j\'\xC3\xA9crivais encore des tracklists avec des songs qui n\'existent m\xC3\xAAme pas dans les notes de mon ordi. Avec 4 ans de retard, le plan s\'\xC3\xA9tait ENFIN d\xC3\xA9roul\xC3\xA9 comme pr\xC3\xA9vu. L\'ep est sorti, jai eu des bon retours, la release party dans un bar perdu au fond du qu\xC3\xA9bec \xC3\xA9tait s\xC3\xBBrement la meilleure soir\xC3\xA9e de ma vie. Maintenant quoi ? je ne sais pas. \x0A  "), makeNimstrLit("    une des choses qui m\'a pouss\xC3\xA9 \xC3\xA0 continuer cet album, entre 2022 et 2024 \xC3\xA9tait la reconnaissance. J\'allais enfin pouvoir montrer aux gens de quoi je suis capable, qu\'est-ce qui me construit, et ce que je peux faire. M\xC3\xAAme si c\'\xC3\xA9tait 2 personnes, la reconnaissance de ces 2 personnes me suffisait. Le simple fait de me dire que jallais peut etre pouvoir etre dans l\'esprit d es gens autrement qu\'en \xC3\xA9tant physiquement devant eux \xC3\xA9tait un moteur assez puissant pour me forcer \xC3\xA0 continuer. Anyway, pour une raison qui m\'est encore inconnue (les gens diront que cest parce que l\'album est bien -- ), jai fini par atteindre bien plus de personnes que je ne l\'imaginais. et \xC3\xA7a m\'a fait du bien. \x0A  "), makeNimstrLit("    Donc quand on est un artiste, la tradition veut qu\'on ne le soit pas seulement pour le temps d\'un album, mais que, \xC3\xA9videmment, on soit capable de r\xC3\xA9it\xC3\xA9rer ce processus plusieurs fois. Ce que \xC3\xA7a voulait dire pour moi, maintenant que j\'\xC3\xA9tais dans la cour des grands, c\'est: il fallait faire mieux, plus rapidement, et arr\xC3\xAAter de gamberge pour rien. C\'est alors naturellement que j\'ai d\xC3\xA9cid\xC3\xA9 de me lancer dans la production d\'un deuxi\xC3\xA8me album, imm\xC3\xA9diatement apres le premier (FATAL FIELDS, l\'intro du projet a \xC3\xA9t\xC3\xA9 produite le jour de la sortie de DMT et enregistr\xC3\xA9e le lendemain). Cest pr\xC3\xA9cis\xC3\xA9ment l\xC3\xA0 que la descente aux enfers a commenc\xC3\xA9. Jai d\xC3\xA9test\xC3\xA9 CHAQUE SECONDE de ce projet, et ce pendant tout le temps de sa conception. C\'\xC3\xA9tait objectivement mieux que son pr\xC3\xA9d\xC3\xA9cesseur, mais mon cerveau n\xC3\xA9tait pas capable de l\'aimer. Pourquoi ? je ne le saurai jamais, mais \xC3\xA7a m\'a d\xC3\xA9truit. Une des diff\xC3\xA9rences entre les deux projets, c\'est que le contexte de conception n\'\xC3\xA9tait pas le m\xC3\xAAme. J\'ai r\xC3\xA9alis\xC3\xA9 DMT pendant mes \xC3\xA9tudes, javais la t\xC3\xAAte dans le son en permanence, et quand je rentrais de cours il fallait grind pour pouvoir deliver le projet \xC3\xA0 temps. Cela a r\xC3\xA9sult\xC3\xA9 en des sessions tr\xC3\xA8s courtes, souvent entre 23h et 3-4h du matin. Le fun de la production venait \xC3\xA0 courtes doses, donc naturellement, j\'allais paradoxalement plus vite puisque j\'avais moins le temps de travailler sur le projet, mais je pouvais gamberger dessus tout le long de la journ\xC3\xA9e. Son successeur (que je nommerai RVS), quand \xC3\xA0 lui, a \xC3\xA9t\xC3\xA9 r\xC3\xA9alis\xC3\xA9 dans un autre contexte: litt\xC3\xA9ralement sans-emploi et chez le padre, donc toute la journ\xC3\xA9e devant l\'ordi \xC3\xA0 composer, enregistrer, mixer, etc etc etc. Ca aurait pu \xC3\xAAtre un r\xC3\xAAve, mais mon cerveau n\'est pas capable de se r\xC3\xA9guler dans si peu de limitations. Donc au lieu de savoir quoi faire et de le faire, je me perdais continuellement sur internet a la recherche d\'inspiration, qui n\'est jamais venu. En mai 2025, jai donc pris la d\xC3\xA9cision de m\'\xC3\xA9loigner de la musique. J\'avais besoin de voir, faire, vivre autre chose. et c\'est l\xC3\xA0 que j\'ai d\xC3\xA9couvert strudel.\x0A  "), makeNimstrLit("    Je vais pas expliquer ce que c\'est, vous pouvez simplement aller voir par vous-m\xC3\xAAme. Concr\xC3\xA8tement: on \xC3\xA9crit du code qui g\xC3\xA9n\xC3\xA8re d ela muisque. c\'\xC3\xA9tait une fa\xC3\xA7on diff\xC3\xA9rente et totalement in\xC3\xA9dite de composer compar\xC3\xA9 \xC3\xA0 ce que je savais d\xC3\xA9j\xC3\xA0, et je suis tomb\xC3\xA9 in love <3 comme disent les jeunes. apr\xC3\xA8s beaucoup d\'it\xC3\xA9rations sur la documentation, jai r\xC3\xA9ussi \xC3\xA0 atteindre un niveau similaire \xC3\xA0 celui que j\'avais sur ableton / fl studio, bien que strudel \xC3\xA9tait relativement bien plus limit\xC3\xA9. Cependant, la passion n\'\xC3\xA9tait pas revenu enti\xC3\xA8rement, et j\'ai vite abandonn\xC3\xA9. Ce que strudel a r\xC3\xA9ussi, en revanche, c\'est \xC3\xA0 m\'orienter vers d\'autres choses: la programmation. Je ne le savais pas encore, mais ce site allait me changer d\'une fa\xC3\xA7on que je n\'aurais jamais imagin\xC3\xA9.\x0A  "), makeNimstrLit("    La seule fois o\xC3\xB9 javais r\xC3\xA9ellement touch\xC3\xA9 \xC3\xA0 du code, c\'\xC3\xA9tait au lyc\xC3\xA9e. Jai fait un bac STI2D SIN, ce qui m\'a permis d\'apprendre le tr\xC3\xA8s horrible arduino. C\'\xC3\xA9tait... une mauvaise exp\xC3\xA9rience que je ne retenterai pour rien au monde, et \xC3\xA7a m\'a convaincu que la programmation \xC3\xA9tait quelque chose qu\'il ne fallait pas que je touche. Puis, en novembre 2025, apr\xC3\xA8s ce que j\'appellerai une \"semaine gamberge\", j\'ai achet\xC3\xA9 Risk of Rain 2, dans le seul objectif de chercher de la dopamine pour mon cerveau trop depressed \xC3\xA0 l\'\xC3\xA9poque. et c\'est LA que je suis tomb\xC3\xA9 dans le rabbit hole.\x0A  "), makeNimstrLit("    Je nai jamais r\xC3\xA9ellement \xC3\xA9t\xC3\xA9 un gamer. les jeux vid\xC3\xA9os sont pour moi plus un moyen de passer le temps plut\xC3\xB4t qu\'une passion. C\'est un monde qui ne m\'a jamais r\xC3\xA9ellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n\'avais pas le bon angle. Jouer aux jeux vid\xC3\xA9os? boring. faire des jeux vid\xC3\xA9os? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pens\xC3\xA9 et \xC3\xA7a sonnait comme une excellente id\xC3\xA9e???? La vague risk of rain m\'avait eu: TOUT ce que j\'aimais faire \xC3\xA9tait r\xC3\xA9uni dans un seul media, accessible \xC3\xA0 l\'infini depuis mon ordinateur: worldbuilding, dessin (bien que ror2 soit en 3d, ce nest pas le cas de son pr\xC3\xA9d\xC3\xA9cesseur), musique, sound design, il me manquait juste.... la passion pour le code.\x0A  "), makeNimstrLit("    alors jai install\xC3\xA9 gamemaker. on m\'a dit que c\'\xC3\xA9tait un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j\'aime \xC3\xA9norm\xC3\xA9ment utiliser des choses qui ne sont pas les premi\xC3\xA8res options lorsqu\'on s\'int\xC3\xA9resse \xC3\xA0 un sujet. unity \xC3\xA9tait trop overwhelming, godot etait trop bizarre, et unreal \xC3\xA9tait trop .... trop. gamemaker \xC3\xA9tait parfait. de novembre \xC3\xA0 f\xC3\xA9vrier, jai enchain\xC3\xA9 les tutoriels, les demos de jeu, l\'apprentissage, tout. je comprenait enfin \"the joy of programming\". c\'\xC3\xA9tait juste ce que j\'aimais le + faire, \xC3\xA0 grande \xC3\xA9chelle: simplement manipuler et organiser des groupes de donn\xC3\xA9es dans un ordre qui permettait de construire ce qu\'on voulait. Absolument rien \xC3\xA0 voir avec arduino. c\'\xC3\xA9tait des probl\xC3\xA8mes de logiques \xC3\xA0 r\xC3\xA9soudre en permanence, \xC3\xA7a m\'a r\xC3\xA9ellement anim\xC3\xA9. Mais j\'en voulais plus.\x0A  "), makeNimstrLit("    mars 2026, j\'installe Love2D. Un genre de cousin de gamemaker, dont la diff\xC3\xA9rence principale est d\'\xC3\xAAtre bien plus minimaliste que ce dernier. La seule chose que Love nous donne, c\'est un .exe qui ne fait.... rien. Pour cause? c\'est \xC3\xA0 l\'utilisateur de tout programmer. contrairement aux principaux game engines, qui fournissent une interface visuelle ainsi que des syst\xC3\xA8mes pour rendre la conception de jeu plus simple, love2D et la plupart de ses cousins frameworks (j\'y reviens plus tard) nous donne seulement des \"librairies\", des ensembles de fonctions permettant de dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. ET j\'ai gal\xC3\xA9r\xC3\xA9. c\'\xC3\xA9tait plaisant, mais jai gal\xC3\xA9r\xC3\xA9. L\'avantage de ce genre comparativement aux gros engine est qu\'ils nous offrent bien plus de libert\xC3\xA9, et nous permette de faire les choses telles que nous le voulons et non telles que l\'engine nous impose. Apr\xC3\xA8s avoir pris en main la logique du \"no engine\", j\'\xC3\xA9tais bien plus \xC3\xA0 l\'aise avec la programmation. En revanche, je ressentait le besoin de descendre encore plus bas pour trouver le vrai bonheur. Ce bonheur s\'est av\xC3\xA9r\xC3\xA9 vivre chez une personne du nom de Raysan5.\x0A  "), makeNimstrLit("    raylib fonctionne d\'une mani\xC3\xA8re similaire \xC3\xA0 love2D: c\'est un ensemble de fonctions regroup\xC3\xA9es dans un fichier texte qui permet d\'ouvrir une fen\xC3\xAAtre, g\xC3\xA9rer les inputs clavier et souris ainsi que dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. La particularit\xC3\xA9 de raylilb, cependant, est sa disponibilit\xC3\xA9: raylib est distribu\xC3\xA9 dans la quasi totalit\xC3\xA9 des langages de programmation \"mainstreams\" ainsi que quelques uns plus niches. Donc je pouvais faire ce que je voulais, avec les outils que je voulais, et comment je le voulais. c\'\xC3\xA9tait PARFAIT.\x0A  "), makeNimstrLit("    Jai pas fini d\'\xC3\xA9crire jaime pas raconter ma vie je voulais juste tester cque jpouvais faire avec le site en tt cas cest trop cool restez branch\xC3\xA9.e.s\x0A  ")]];
-F.line = 75;
+var rdthoughts_553648160 = [[[32,32,32,32,116,101,120,116,101,32,98,105,101,110,32,116,114,111,112,32,108,111,110,103,32,109,97,105,115,32,102,97,108,108,97,105,116,32,113,117,101,32,106,101,32,121,97,112,32,117,110,32,112,101,117,32,10,32,32], makeNimstrLit("    Au coll\xC3\xA8ge, quand jai commenc\xC3\xA9 a faire de la musique, je ne me suis jamais pos\xC3\xA9 la question de **pourquoi** je le faisais. \xC3\xA0 l\'\xC3\xA9poque, mon dumb ass brain \xC3\xA9tait incapable de se fixer et grind un seul int\xC3\xA9r\xC3\xAAt, genre une passion, un sport (??), une forme d\'art, peu importe. Apres des ann\xC3\xA9es \xC3\xA0 essayer de comprendre ce que j\'aimais, ce que je voulais faire dans la vie, et comment je voulais le faire, j\'ai d\xC3\xA9couvert la musique \xC3\xA9lectronique plut\xC3\xB4t par hasard, et j\'ai commenc\xC3\xA9 \xC3\xA0 apprendre assez instinctivement. Jusque l\xC3\xA0, je n\'avais jamais \xC3\xA9t\xC3\xA9 s\xC3\xA9rieusement int\xC3\xA9ress\xC3\xA9 par le sujet. Ma culture musicale se r\xC3\xA9sumait aux musiques d\'intros cinem4D et aux tops nrj12. Cette culture, je l\'ai donc forg\xC3\xA9e avec le temps, en apprenant et en \xC3\xA9coutant de nouvelles choses. \xC3\xA0 partir de ce moment, la musique \xC3\xA9tait devenu le seul centre d\'int\xC3\xA9r\xC3\xAAt que j\'avais et qui avait comme particularit\xC3\xA9 de ne pas me lasser, donc jai continu\xC3\xA9. Vers le lyc\xC3\xA9e, au bout de 3/4 ann\xC3\xA9es de production, jai simplement r\xC3\xA9alis\xC3\xA9 que j\'\xC3\xA9tais arriv\xC3\xA9 trop loin pour m\'arr\xC3\xAAter, donc jai voulu m\'orienter l\xC3\xA0 dedans.\x0A\x0A  "), makeNimstrLit("    je passerai les d\xC3\xA9tails ici, si vous lisez \xC3\xA7a vous savez. Mon obsession apr\xC3\xA8s avoir eu mon bac a \xC3\xA9t\xC3\xA9 de continuer d\'apprendre tout ce que je pouvais afin de l\'appliquer dans mes propres productions. Le sound design, l\'arrangement, le mix, etc.... jai effectivement appris ces choses l\xC3\xA0, d\xC3\xA9croch\xC3\xA9 un dipl\xC3\xB4me, puis, en 2024, DATAMOSH THERAPY est n\xC3\xA9. 2 ans d\'acouph\xC3\xA8nes et moi qui raconte des trucs dans une fa\xC3\xA7on dont le moi du futur aurait s\xC3\xBBrement tr\xC3\xA8s honte (c\'est le cas). Javais atteint pour la premi\xC3\xA8re fois un objectif que je m\'\xC3\xA9tais fix\xC3\xA9. Cet album \xC3\xA9tait la concr\xC3\xA9tisation de tout ce que javais imagin\xC3\xA9 depuis 2020, quand j\'\xC3\xA9crivais encore des tracklists avec des songs qui n\'existent m\xC3\xAAme pas dans les notes de mon ordi. Avec 4 ans de retard, le plan s\'\xC3\xA9tait ENFIN d\xC3\xA9roul\xC3\xA9 comme pr\xC3\xA9vu. L\'ep est sorti, jai eu des bon retours, le concert nul dans un bar perdu au fond du qu\xC3\xA9bec \xC3\xA9tait s\xC3\xBBrement la meilleure soir\xC3\xA9e de ma vie. C\'\xC3\xA9tait sinc\xC3\xA8rement tout ce que je voulais \xC3\xA0 ce moment. \x0A  "), makeNimstrLit("    Une des choses qui m\'a pouss\xC3\xA9 \xC3\xA0 continuer cet album, entre 2022 et 2024 \xC3\xA9tait la reconnaissance. J\'allais enfin pouvoir montrer aux gens de quoi je suis capable, qu\'est-ce qui me construit, la culture et les r\xC3\xA9f\xC3\xA9rences accumul\xC3\xA9es et ce que je peux faire. DMT \xC3\xA9tait un \xC3\xA9norme condens\xC3\xA9 de moi et mes inspirations. M\xC3\xAAme si c\'\xC3\xA9tait 2 personnes, le fait que ces 2 personnes puisse au moins comprendre ce que j\'essaie d\'\xC3\xAAtre me suffisait. Me dire que jallais peut etre pouvoir etre dans l\'esprit d es gens autrement qu\'en \xC3\xA9tant physiquement devant eux \xC3\xA9tait un moteur assez puissant pour me forcer \xC3\xA0 continuer. Anyway, pour une raison qui m\'est encore inconnue (les gens diront que cest parce que l\'album est bien -- ), jai fini par atteindre bien plus de personnes que je ne l\'imaginais. et \xC3\xA7a m\'a beaucoup aid\xC3\xA9 \xC3\xA0 l\'accepter.  \x0A  "), makeNimstrLit("    Donc quand on est un artiste, la tradition veut qu\'on ne le soit pas seulement pour le temps d\'un album, mais que, \xC3\xA9videmment, on soit capable de r\xC3\xA9it\xC3\xA9rer ce processus plusieurs fois. Ce que \xC3\xA7a voulait dire pour moi, maintenant que j\'\xC3\xA9tais dans la cour des grands, c\'est: il fallait faire la m\xC3\xAAme chose en mieux, et surtout plus rapidement. Ignorant le fait que DMT m\'a pris litteral 2 ann\xC3\xA9es pour devenir \"\xC3\xA9coutable\", c\'est plutot inocemment que j\'ai d\xC3\xA9cid\xC3\xA9 de me lancer dans la production d\'un deuxi\xC3\xA8me album, imm\xC3\xA9diatement apres le premier (FATAL FIELDS, l\'intro du projet a \xC3\xA9t\xC3\xA9 produite le jour de la sortie de DMT et enregistr\xC3\xA9e le lendemain). Cest pr\xC3\xA9cis\xC3\xA9ment l\xC3\xA0 que la descente aux enfers a commenc\xC3\xA9. \x0A  "), makeNimstrLit("    Jai d\xC3\xA9test\xC3\xA9 CHAQUE SECONDE de ce projet, et ce pendant tout le temps de sa conception. C\'\xC3\xA9tait objectivement mieux que son pr\xC3\xA9d\xC3\xA9cesseur, mais mon cerveau n\xC3\xA9tait pas capable de l\'aimer. Pourquoi ? Une des diff\xC3\xA9rences entre les deux projets, c\'est que le contexte de conception n\'\xC3\xA9tait pas le m\xC3\xAAme. J\'ai r\xC3\xA9alis\xC3\xA9 DMT pendant mes \xC3\xA9tudes, javais la t\xC3\xAAte dans le son en permanence, et quand je rentrais de cours il fallait grind pour pouvoir deliver le projet \xC3\xA0 temps. Cela a r\xC3\xA9sult\xC3\xA9 en des sessions tr\xC3\xA8s courtes, souvent entre 23h et 3-4h du matin. Le fun de la production venait \xC3\xA0 courtes doses, donc j\'allais paradoxalement plus vite puisque j\'avais moins le temps de travailler sur le projet, mais je pouvais aussi gamberger dessus tout le long de la journ\xC3\xA9e. Son successeur , quand \xC3\xA0 lui, a \xC3\xA9t\xC3\xA9 r\xC3\xA9alis\xC3\xA9 dans un autre contexte: litt\xC3\xA9ralement sans-emploi, donc toute la journ\xC3\xA9e devant l\'ordi \xC3\xA0 composer, enregistrer, mixer, recommencer... Ca aurait pu \xC3\xAAtre un r\xC3\xAAve, mais mon cerveau n\'est pas capable de se r\xC3\xA9guler dans si peu de limitations. Donc au lieu de savoir quoi faire et de le faire, je me perdais continuellement sur internet a la recherche d\'inspiration, qui n\'est jamais venu. En juillet 2025, jai donc pris la d\xC3\xA9cision de mettre le projet en pause. J\'avais besoin de voir, faire, vivre autre chose. et c\'est l\xC3\xA0 que j\'ai d\xC3\xA9couvert strudel.\x0A  "), makeNimstrLit("    Je vais pas expliquer ce que c\'est, vous pouvez simplement aller voir par vous-m\xC3\xAAme. Concr\xC3\xA8tement: on \xC3\xA9crit du code qui g\xC3\xA9n\xC3\xA8re d ela muisque. c\'\xC3\xA9tait une fa\xC3\xA7on diff\xC3\xA9rente et totalement in\xC3\xA9dite de composer compar\xC3\xA9 \xC3\xA0 ce que je savais d\xC3\xA9j\xC3\xA0, et je suis tomb\xC3\xA9 in love <3 comme disent les jeunes. apr\xC3\xA8s beaucoup d\'it\xC3\xA9rations sur la documentation, jai r\xC3\xA9ussi \xC3\xA0 atteindre un niveau similaire \xC3\xA0 celui que j\'avais sur ableton / fl studio, bien que strudel \xC3\xA9tait relativement bien plus limit\xC3\xA9. Cependant, la passion n\'\xC3\xA9tait pas revenu enti\xC3\xA8rement, et j\'ai vite abandonn\xC3\xA9. Ce que strudel a r\xC3\xA9ussi, en revanche, c\'est \xC3\xA0 m\'orienter vers d\'autres choses: la programmation. Je ne le savais pas encore, mais ce site allait me changer d\'une fa\xC3\xA7on que je n\'aurais jamais imagin\xC3\xA9.\x0A  "), makeNimstrLit("    La seule fois o\xC3\xB9 javais r\xC3\xA9ellement touch\xC3\xA9 \xC3\xA0 du code, c\'\xC3\xA9tait au lyc\xC3\xA9e. Jai fait un bac STI2D SIN, ce qui m\'a permis d\'apprendre le tr\xC3\xA8s horrible arduino. C\'\xC3\xA9tait... une mauvaise exp\xC3\xA9rience que je ne retenterai pour rien au monde, et \xC3\xA7a m\'a convaincu que la programmation \xC3\xA9tait quelque chose qu\'il ne fallait pas que je touche. Puis, en novembre 2025, apr\xC3\xA8s ce que j\'appellerai une des pires semaines de ma vie, j\'ai achet\xC3\xA9 Risk of Rain 2, dans le seul objectif de chercher de la dopamine pour mon cerveau cass\xC3\xA9 de l\'\xC3\xA9poque. et c\'est LA que je suis tomb\xC3\xA9 dans le rabbit hole.\x0A  "), makeNimstrLit("    Je nai jamais r\xC3\xA9ellement \xC3\xA9t\xC3\xA9 un gros joueur. les jeux vid\xC3\xA9os sont pour moi bien plus un moyen de passer le temps qu\'une passion. C\'est un monde qui ne m\'a jamais r\xC3\xA9ellement fait vibrer comme la musique pourrait le faire, pour la raison suivante: je n\'avais pas le bon angle. Jouer aux jeux vid\xC3\xA9os? boring. faire des jeux vid\xC3\xA9os? hmmmmm qu... FAIRE DES JEUX VIDEOS??? jy avait jamais pens\xC3\xA9 et \xC3\xA7a sonnait comme une excellente id\xC3\xA9e???? ce que ror2 m\'avait apport\xC3\xA9 \xC3\xA9tait quelque chose auquel je n\'avais jamais pens\xC3\xA9: TOUT ce que j\'aimais faire \xC3\xA9tait r\xC3\xA9uni dans un seul media: worldbuilding, dessin (bien que ror2 soit en 3d, ce qui nest pas le cas de son pr\xC3\xA9d\xC3\xA9cesseur), musique, sound design, il me manquait juste.... les skills de programmation.\x0A  "), makeNimstrLit("    alors jai install\xC3\xA9 gamemaker. on m\'a dit que c\'\xC3\xA9tait un des meilleurs et des plus simples. Jai une aversion pour la plupart des trucs trendy, et j\'aime \xC3\xA9norm\xC3\xA9ment utiliser des choses qui ne sont pas les premi\xC3\xA8res options lorsqu\'on s\'int\xC3\xA9resse \xC3\xA0 un sujet. unity \xC3\xA9tait trop overwhelming, godot etait trop bizarre, et unreal \xC3\xA9tait trop .... trop. gamemaker \xC3\xA9tait parfait. de novembre \xC3\xA0 f\xC3\xA9vrier, jai enchain\xC3\xA9 les tutoriels, les demos de jeu, l\'apprentissage, tout. je comprenais enfin \"the joy of programming\". c\'\xC3\xA9tait juste ce que j\'aimais le + faire, \xC3\xA0 grande \xC3\xA9chelle: simplement manipuler et organiser des groupes de donn\xC3\xA9es dans un ordre qui permettait de construire ce qu\'on voulait. Absolument rien \xC3\xA0 voir avec arduino. c\'\xC3\xA9tait des probl\xC3\xA8mes de logiques \xC3\xA0 r\xC3\xA9soudre en permanence, \xC3\xA7a m\'a r\xC3\xA9ellement anim\xC3\xA9. Mais j\'en voulais plus.\x0A  "), makeNimstrLit("    mars 2026, j\'installe Love2D. Un genre de cousin de gamemaker, dont la diff\xC3\xA9rence principale est d\'\xC3\xAAtre bien plus minimaliste que ce dernier. La seule chose que Love nous donne, c\'est un .exe qui ne fait.... rien. Pour cause? c\'est \xC3\xA0 l\'utilisateur de tout programmer. contrairement aux principaux game engines, qui fournissent une interface visuelle ainsi que des syst\xC3\xA8mes pour rendre la conception de jeu plus simple, love2D et la plupart de ses cousins frameworks (j\'y reviens plus tard) nous donne seulement des \"librairies\", des ensembles de fonctions permettant de dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. ET j\'ai gal\xC3\xA9r\xC3\xA9. c\'\xC3\xA9tait plaisant, mais jai gal\xC3\xA9r\xC3\xA9, parce qu\'il fallait tout faire seul. L\'avantage de ce genre comparativement aux gros engine est qu\'ils nous offrent bien plus de libert\xC3\xA9, et nous permettent de faire les choses telles que nous le voulons et non telles que l\'engine nous impose. Apr\xC3\xA8s avoir pris en main la logique du no engine, j\'\xC3\xA9tais bien plus \xC3\xA0 l\'aise avec la programmation. En revanche, je ressentais le besoin de descendre encore plus bas pour trouver le vrai bonheur. Ce bonheur s\'est av\xC3\xA9r\xC3\xA9 vivre chez une personne du nom de Raysan5.\x0A  "), makeNimstrLit("    raylib fonctionne d\'une mani\xC3\xA8re similaire \xC3\xA0 love2D: c\'est un ensemble de fonctions regroup\xC3\xA9es dans un fichier texte qui permet d\'ouvrir une fen\xC3\xAAtre, g\xC3\xA9rer les inputs clavier et souris ainsi que dessiner des choses \xC3\xA0 l\'\xC3\xA9cran. La particularit\xC3\xA9 de raylilb, cependant, est sa disponibilit\xC3\xA9: raylib est distribu\xC3\xA9 dans la quasi totalit\xC3\xA9 des langages de programmation \"mainstreams\" ainsi que quelques uns plus niches. Donc je pouvais faire ce que je voulais, avec les outils que je voulais, et comment je le voulais. c\'\xC3\xA9tait PARFAIT.\x0A  "), makeNimstrLit("    Jai pas fini d\'\xC3\xA9crire jaime pas raconter ma vie je voulais juste tester cque jpouvais faire avec le site en tt cas cest trop cool restez branch\xC3\xA9.e.s\x0A  ")]];
+F.line = 79;
 var pcMain_553648273 = [{txBody: "Ce site me sert de blog privé et de portfolio pour regrouper plus ou moins tous les projets sur lesquels je travaille, professionellement et dans mon temps libre."}];
-F.line = 80;
+F.line = 84;
 var pres_553648274 = [makeNimstrLit("jemappellenoejai23ansetlesgensdisentquejesuiscreatifvoicimonsiteinternet")];
-Temporary1 = createDom__app_u229.bind(null); Temporary1.ClP_0 = createDom__app_u229; Temporary1.ClE_0 = null;
+Temporary1 = createDom__app_u231.bind(null); Temporary1.ClP_0 = createDom__app_u231; Temporary1.ClE_0 = null;
 setRenderer__pkgZkaraxZkarax_u1870(Temporary1, "ROOT", null);
 framePtr = F.prev;
 var F = {procname: "module app", prev: framePtr, filename: "C:\\Users\\noems\\OneDrive\\Bureau\\myport\\app.nim", line: 0};
