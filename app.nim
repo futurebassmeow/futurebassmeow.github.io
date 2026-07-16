@@ -1,6 +1,6 @@
 include karax/prelude
 
-var list = @[kstring "INDEX", "PROJETS", "BLOG", "AUTRE"]
+var list = @[kstring "les", "boutons", "ici", "fonctionnent", "pas"]
 
 type STATE = enum
   MAIN
@@ -74,13 +74,16 @@ proc renderMain(): VNode =
     h1:
       text "futurebassmeow"
     h3:
-      text "musicien - sound designer - wannabe developer - depressed"
+      text "former musicien & sound designer - wannabe developer - depressed"
     nav:
       for i, page in list.pairs:
         a(href = "#/"):
           text page
         if i < list.len - 1:
-          text " --- "
+          text " ----- "
+
+    p:
+      text "je rêve de faire des trucs utiles quand je ne peux pas les faire et dès que je peux je fais des trucs inutiles #deep"
 
     h2:
       text "-----------------------------------------------"
@@ -96,7 +99,7 @@ proc renderMain(): VNode =
     h4:
       text "16/07/26 pourquoi la scene underground se comportent tous comme des tocards"
     p:
-      text "jvoulais faire un post sur xo et puis jai eu la flemme maisquil nique sa mere lui et sa love letter envers claude . Un jour je parlerai de 55pasquier aussi. ce n'est cependant pas le sujet de l'article"
+      text "jvoulais faire un post sur xo et puis jai eu la flemme maisquil nique sa mere lui et sa claude fanfic . ca nous fait le philosophe pour défendre l'utilisation de robots dans l'art sayez gros va faire d drums un peu"
 
 proc createDom(): VNode =
   case currentState
