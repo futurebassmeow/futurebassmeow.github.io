@@ -1,0 +1,19 @@
+.myclass {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    font-family: "LythMonoSquare Nerd Font Medium";
+    background-color: #141013;
+    color : #e3e6FF;
+    line-height: 1.5;
+}
+
+h3{
+    color: #dba463;
+}
+
+a{
+    color: #e86a73;
+}
